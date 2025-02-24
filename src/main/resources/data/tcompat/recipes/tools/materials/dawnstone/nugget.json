@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "embers"
+    },
+    "ingredient": {
+        "item": "embers:dawnstone_nugget"
+    },
+    "material": "tcompat:dawnstone",
+    "needed": 9,
+    "value": 1
+}

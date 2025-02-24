@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "ingredient": {
+        "item": "botania:terrasteel_nugget"
+    },
+    "material": "tcompat:terrasteel",
+    "needed": 9,
+    "value": 1
+}

@@ -1,0 +1,10 @@
+{
+  "condition": {
+    "type": "forge:mod_loaded",
+    "modid": "embers"
+  },
+  "craftable": false,
+  "hidden": true,
+  "sortOrder": 3,
+  "tier": 3
+}

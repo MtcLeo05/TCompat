@@ -1,0 +1,16 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "ingredient": {
+        "item": "botania:livingwood_twig"
+    },
+    "leftover": {
+        "item": "botania:livingwood_planks"
+    },
+    "material": "tcompat:livingwood",
+    "needed": 1,
+    "value": 8
+}

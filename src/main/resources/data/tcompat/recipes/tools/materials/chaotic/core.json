@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "draconicevolution"
+    },
+    "ingredient": {
+        "item": "draconicevolution:chaotic_core"
+    },
+    "material": "tcompat:chaotic",
+    "needed": 1,
+    "value": 1
+}

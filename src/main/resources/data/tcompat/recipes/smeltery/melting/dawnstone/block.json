@@ -1,0 +1,16 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "embers"
+    },
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "item": "embers:dawnstone_block"
+    },
+    "result": {
+        "amount": 810,
+        "tag": "forge:molten_dawnstone"
+    },
+    "temperature": 800,
+    "time": 180
+}

@@ -1,0 +1,16 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "ingredient": {
+        "item": "botania:terrasteel_block"
+    },
+    "leftover": {
+        "item": "botania:terrasteel_ingot"
+    },
+    "material": "tcompat:terrasteel",
+    "needed": 1,
+    "value": 9
+}

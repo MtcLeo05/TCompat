@@ -1,0 +1,21 @@
+{
+    "modifier.tcompat": {
+        "mana_aligned": "#00feff",
+        "bloodlust": "#fff1100",
+        "mana_crumbling": "#3962d7",
+        "energized": "#c92900",
+        "draconic": "#c92900",
+        "chaotic": "#F191328"
+    },
+    "material.tcompat": {
+        "livingwood": "#5E2409",
+        "livingrock": "#DFE2D4",
+        "redquartz": "#fc5a5a",
+        "manasteel": "#3962d7",
+        "terrasteel": "#0c7127",
+        "dawnstone": "#FC5100",
+        "wyvern": "#3b1550",
+        "draconic": "#c92900",
+        "chaotic": "#F191328"
+    }
+}

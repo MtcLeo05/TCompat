@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "type": "tconstruct:material_fluid",
+    "fluid": {
+        "amount": 90,
+        "tag": "tcompat:molten_manasteel"
+    },
+    "output": "tcompat:manasteel",
+    "temperature": 800
+}

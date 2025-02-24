@@ -1,0 +1,16 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "ingredient": {
+        "item": "botania:manasteel_block"
+    },
+    "leftover": {
+        "item": "botania:manasteel_ingot"
+    },
+    "material": "tcompat:manasteel",
+    "needed": 1,
+    "value": 9
+}

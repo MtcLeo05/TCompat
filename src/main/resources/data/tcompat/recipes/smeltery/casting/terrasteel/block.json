@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "type": "tconstruct:casting_basin",
+    "cooling_time": 180,
+    "fluid": {
+        "amount": 810,
+        "fluid": "tcompat:molten_terrasteel"
+    },
+    "result": "botania:terrasteel_block"
+}
