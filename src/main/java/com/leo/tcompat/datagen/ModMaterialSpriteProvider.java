@@ -17,6 +17,7 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
         embers();
         draconicEvolution();
         bloodMagic();
+        manaAndArtifice();
     }
 
     private void botania() {
@@ -176,4 +177,22 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
                     .build()
             );
     }
+
+    private void manaAndArtifice() {
+        this.buildMaterial(TCompatValues.CHIMERITE)
+            .meleeHarvest()
+            .fallbacks("crystal")
+            .colorMapper(
+                GreyToColorMapping.builder()
+                    .addARGB(0, 0xFFdccbc7)
+                    .addARGB(63, 0xFFdab9cc)
+                    .addARGB(120, 0xFFfce87c)
+                    .addARGB(140, 0xFFefbaa9)
+                    .addARGB(178, 0xFFa9cfbe)
+                    .addARGB(216, 0xFFaabee2)
+                    .addARGB(255, 0xFFc791ad)
+                    .build()
+            );
+    }
+
 }

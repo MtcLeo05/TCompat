@@ -11,7 +11,9 @@
         "vengeful": "#cd807d",
         "destructive": "#c2b288",
         "steadfast": "#8988c2",
-        "sentient": "#9ad9cd"
+        "sentient": "#9ad9cd",
+        "mana_storm": "#FFE2EE",
+        "mana_boost": "#B7FFF7"
     },
     "material.tcompat": {
         "livingwood": "#5E2409",
@@ -23,6 +25,7 @@
         "wyvern": "#3b1550",
         "draconic": "#c92900",
         "chaotic": "#F191328",
-        "hellforged": "#9ad9cd"
+        "hellforged": "#9ad9cd",
+        "chimerite": "#dccbc7"
     }
 }

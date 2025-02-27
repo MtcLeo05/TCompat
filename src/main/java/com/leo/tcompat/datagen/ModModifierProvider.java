@@ -17,6 +17,7 @@ public class ModModifierProvider extends AbstractModifierProvider implements ICo
         botania();
         draconicEvolution();
         bloodMagic();
+        manaAndArtifice();
     }
 
     private void botania() {
@@ -41,6 +42,13 @@ public class ModModifierProvider extends AbstractModifierProvider implements ICo
         buildModifier(TCompatValues.STEADFAST, mod);
 
         buildModifier(TCompatValues.SENTIENT, mod);
+    }
+
+    private void manaAndArtifice() {
+        ICondition mod = modLoaded("mna");
+
+        buildModifier(TCompatValues.MANA_STORM, mod);
+        buildModifier(TCompatValues.MANA_BOOST, mod);
     }
 
     @Override

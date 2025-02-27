@@ -30,6 +30,10 @@ are supported.
   * <span style="color: #9ad9cd;">Hellforged</span> Material
   * <span style="color: #8cc9ca;">Willing</span>, <span style="color: #8dc288;">Corrosive</span>, <span style="color: #cd807d;">Destructive</span>, <span style="color: #c2b288;">Vengeful</span>, <span style="color: #8988c2;">Steadfast</span>, <span style="color: #9ad9cd;">Sentient</span> Modifier
 
+* Mana and Artifice
+    * <span style="color: #dccbc7;">Chimerite</span> Material
+    * <span style="color: #FFE2EE;">Mana Storm</span>, <span style="color: #B7FFF7;">Mana Boost</span> Modifier
+
 ## Modifier / Traits Details
 
 * Botania:
@@ -51,3 +55,8 @@ are supported.
 * Blood Magic
   * <span style="color: #8cc9ca;">Willing</span>, <span style="color: #8dc288;">Corrosive</span>, <span style="color: #cd807d;">Destructive</span>, <span style="color: #c2b288;">Vengeful</span>, <span style="color: #8988c2;">Steadfast</span>: Each of them makes killing mobs drop their respective will type
   * <span style="color: #9ad9cd;">Sentient</span>: Makes tool have damage and mining speed boosts based on the will the player has. Boost changes based on amount and type of will
+
+
+* Mana and Artifice
+    * <span style="color: #FFE2EE;">Mana Storm</span>: Increases the holder / wearer mana by 40 + (20 * level)
+    * <span style="color: #B7FFF7;">Mana Boost</span>: Has a 10 + (7.5 * level) % chance of consuming 25 mana (+2.6% * level) to either increase drops (1.5x) or deal magic damage on top of the original. Magic damage is original damage / 4

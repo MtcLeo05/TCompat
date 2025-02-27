@@ -4,7 +4,9 @@ import com.leo.tcompat.TCompat;
 import com.leo.tcompat.common.TCompatValues;
 import com.leo.tcompat.compat.bloodmagic.BloodMagicInit;
 import com.leo.tcompat.compat.botania.BotaniaInit;
+import com.leo.tcompat.compat.mna.ManaAndArtificeInit;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import slimeknights.mantle.fluid.texture.AbstractFluidTextureProvider;
 import slimeknights.mantle.fluid.texture.FluidTexture;
 import slimeknights.mantle.registration.object.FluidObject;
@@ -22,6 +24,7 @@ public class ModFluidTextureProvider extends AbstractFluidTextureProvider {
         this.named(BotaniaInit.MOLTEN_MANASTEEL, "molten").color(0xFF000000 | TCompatValues.MANASTEEL_COLOR);
         this.named(BotaniaInit.MOLTEN_TERRASTEEL, "molten").color(0xFF000000 | TCompatValues.TERRASTEEL_COLOR);
         this.named(BloodMagicInit.MOLTEN_HELLFORGED, "molten").color(0xFF000000 | TCompatValues.HELLFORGED_COLOR);
+        this.customNamed(ManaAndArtificeInit.MOLTEN_CHIMERITE, "molten/chimerite_").color(0xFFFFFFFF);
     }
 
     @Override
@@ -39,6 +42,10 @@ public class ModFluidTextureProvider extends AbstractFluidTextureProvider {
 
     private FluidTexture.Builder named(FluidObject<?> fluid, String name) {
         return this.texture(fluid).textures(TConstruct.getResource("fluid/" + name + "/"), false, false);
+    }
+
+    private FluidTexture.Builder customNamed(FluidObject<?> fluid, String name) {
+        return this.texture(fluid).textures(new ResourceLocation(TCompat.MODID, "fluid/" + name), false, false);
     }
 
     private FluidTexture.Builder slime(FluidObject<?> fluid) {

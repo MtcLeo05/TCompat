@@ -19,6 +19,7 @@ public class ModMaterialTraitsDataProvider extends AbstractMaterialTraitDataProv
         embers();
         draconic();
         bloodMagic();
+        manaAndArtifice();
     }
 
     private void botania() {
@@ -41,6 +42,10 @@ public class ModMaterialTraitsDataProvider extends AbstractMaterialTraitDataProv
 
     private void bloodMagic() {
         this.addDefaultTraits(TCompatValues.HELLFORGED, TCompatValues.WILLING, TCompatValues.SENTIENT);
+    }
+
+    private void manaAndArtifice() {
+        this.addDefaultTraits(TCompatValues.CHIMERITE, TCompatValues.MANA_STORM, TCompatValues.MANA_BOOST);
     }
 
     @Override

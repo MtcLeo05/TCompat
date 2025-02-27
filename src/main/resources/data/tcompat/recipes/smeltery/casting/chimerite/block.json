@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "mna"
+    },
+    "type": "tconstruct:casting_basin",
+    "cooling_time": 180,
+    "fluid": {
+        "amount": 900,
+        "fluid": "tcompat:molten_chimerite"
+    },
+    "result": "mna:chimerite_block"
+}

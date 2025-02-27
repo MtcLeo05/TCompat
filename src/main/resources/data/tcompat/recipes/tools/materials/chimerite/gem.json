@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "mna"
+    },
+    "ingredient": {
+        "item": "mna:chimerite_gem"
+    },
+    "material": "tcompat:chimerite",
+    "needed": 1,
+    "value": 1
+}

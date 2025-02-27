@@ -19,6 +19,8 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("item.tcompat.molten_terrasteel_bucket", "Molten Terrasteel Bucket");
         this.add("fluid.tconstruct.molten_hellforged", "Molten Hellforged");
         this.add("item.tcompat.molten_hellforged_bucket", "Molten Hellforged Bucket");
+        this.add("fluid.tconstruct.molten_chimerite", "Molten Chimerite");
+        this.add("item.tcompat.molten_chimerite_bucket", "Molten Chimerite Bucket");
 
         this.add(TCompatValues.BLOODLUST_TOOLTIP, "Bonus Damage: %s");
         this.add(TCompatValues.MANA_CRUMBLING_TOOLTIP, "Bonus Speed");
@@ -56,6 +58,9 @@ public class ModLanguageProvider extends LanguageProvider {
 
         this.add("material." + TCompatValues.HELLFORGED.toLanguageKey(), "Hellforged");
         this.add("material." + TCompatValues.HELLFORGED.toLanguageKey() + ".encyclopedia", "Tool does more damage / mines faster based on the amount of will");
+
+        this.add("material." + TCompatValues.CHIMERITE.toLanguageKey(), "Chimerite");
+        this.add("material." + TCompatValues.CHIMERITE.toLanguageKey() + ".encyclopedia", "Tool increases holder / wearer mana, and gives slight boost to drops and damage");
 
         this.add("modifier." + TCompatValues.MANA_ALIGNED.toLanguageKey(), "Mana Aligned");
         this.add("modifier." + TCompatValues.MANA_ALIGNED.toLanguageKey() + ".flavor", "Mana Power!");
@@ -104,6 +109,14 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("modifier." + TCompatValues.SENTIENT.toLanguageKey(), "Sentient");
         this.add("modifier." + TCompatValues.SENTIENT.toLanguageKey() + ".flavor", "Smooth Brain");
         this.add("modifier." + TCompatValues.SENTIENT.toLanguageKey() + ".description", "Tool becomes stronger the more will the player has");
+
+        this.add("modifier." + TCompatValues.MANA_STORM.toLanguageKey(), "Mana Storm");
+        this.add("modifier." + TCompatValues.MANA_STORM.toLanguageKey() + ".flavor", "Strengthening you vessel");
+        this.add("modifier." + TCompatValues.MANA_STORM.toLanguageKey() + ".description", "Tool increases holder / wearer mana capacity");
+
+        this.add("modifier." + TCompatValues.MANA_BOOST.toLanguageKey(), "Mana Boost");
+        this.add("modifier." + TCompatValues.MANA_BOOST.toLanguageKey() + ".flavor", "May luck be with ye");
+        this.add("modifier." + TCompatValues.MANA_BOOST.toLanguageKey() + ".description", "Doing a tools main action sometimes gives bonuses in exchange of mana");
     }
 
 

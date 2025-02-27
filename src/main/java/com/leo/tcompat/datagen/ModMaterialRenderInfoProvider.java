@@ -17,6 +17,7 @@ public class ModMaterialRenderInfoProvider extends AbstractMaterialRenderInfoPro
         embers();
         draconicEvolution();
         bloodMagic();
+        manaAndArtifice();
     }
 
     private void botania() {
@@ -39,6 +40,10 @@ public class ModMaterialRenderInfoProvider extends AbstractMaterialRenderInfoPro
 
     private void bloodMagic() {
         this.buildRenderInfo(TCompatValues.HELLFORGED).color(TCompatValues.HELLFORGED_COLOR).fallbacks("metal");
+    }
+
+    private void manaAndArtifice() {
+        this.buildRenderInfo(TCompatValues.CHIMERITE).color(TCompatValues.CHIMERITE_COLOR).fallbacks("crystal");
     }
 
 

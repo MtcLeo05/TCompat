@@ -21,6 +21,7 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
         embers();
         draconic();
         bloodMagic();
+        manaAndArtifice();
     }
 
     private void botania() {
@@ -46,6 +47,10 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
         addMaterialStats(TCompatValues.HELLFORGED, new HeadMaterialStats(300, 6.25f, Tiers.IRON, 2.25f), HandleMaterialStats.percents().durability(0.125f).build(), StatlessMaterialStats.BINDING);
     }
 
+    private void manaAndArtifice() {
+        addMaterialStats(TCompatValues.CHIMERITE, new HeadMaterialStats(750, 7.0f, Tiers.DIAMOND, 5.25f), HandleMaterialStats.multipliers().durability(1.75f).attackDamage(1.25f).build(), StatlessMaterialStats.BINDING);
+    }
+    
     @Override
     public String getName() {
         return "TCompat - Material Stats Provider";

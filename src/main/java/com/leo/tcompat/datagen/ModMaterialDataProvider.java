@@ -17,6 +17,7 @@ public class ModMaterialDataProvider extends AbstractMaterialDataProvider {
         embers();
         draconicEvolution();
         bloodMagic();
+        manaAndArtifice();
     }
 
     private void botania() {
@@ -47,6 +48,12 @@ public class ModMaterialDataProvider extends AbstractMaterialDataProvider {
         ICondition mod = new ModLoadedCondition("bloodmagic");
 
         addMaterial(TCompatValues.HELLFORGED, 2, ORDER_GENERAL, false, false, mod);
+    }
+
+    private void manaAndArtifice() {
+        ICondition mod = new ModLoadedCondition("mna");
+
+        addMaterial(TCompatValues.CHIMERITE, 2, ORDER_GENERAL, false, false, mod);
     }
 
 

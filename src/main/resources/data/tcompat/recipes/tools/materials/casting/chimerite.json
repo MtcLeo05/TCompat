@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "mna"
+    },
+    "type": "tconstruct:material_fluid",
+    "fluid": {
+        "amount": 100,
+      "fluid": "tcompat:molten_chimerite"
+    },
+    "output": "tcompat:chimerite",
+    "temperature": 800
+}

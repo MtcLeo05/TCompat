@@ -1,0 +1,16 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "mna"
+    },
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "tconstruct:casts/multi_use/gem"
+    },
+    "cooling_time": 60,
+    "fluid": {
+        "amount": 100,
+        "fluid": "tcompat:molten_chimerite"
+    },
+    "result": "mna:chimerite_gem"
+}
