@@ -5,7 +5,13 @@
         "mana_crumbling": "#3962d7",
         "energized": "#c92900",
         "draconic": "#c92900",
-        "chaotic": "#F191328"
+        "chaotic": "#F191328",
+        "willing": "#8cc9ca",
+        "corrosive": "#8dc288",
+        "vengeful": "#cd807d",
+        "destructive": "#c2b288",
+        "steadfast": "#8988c2",
+        "sentient": "#9ad9cd"
     },
     "material.tcompat": {
         "livingwood": "#5E2409",
@@ -16,6 +22,7 @@
         "dawnstone": "#FC5100",
         "wyvern": "#3b1550",
         "draconic": "#c92900",
-        "chaotic": "#F191328"
+        "chaotic": "#F191328",
+        "hellforged": "#9ad9cd"
     }
 }

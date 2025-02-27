@@ -20,6 +20,7 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
         botania();
         embers();
         draconic();
+        bloodMagic();
     }
 
     private void botania() {
@@ -39,6 +40,10 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
         addMaterialStats(TCompatValues.WYVERN, new HeadMaterialStats(1500, 7f, Tiers.NETHERITE, 10f), HandleMaterialStats.percents().durability(0.3f).build(), StatlessMaterialStats.BINDING);
         addMaterialStats(TCompatValues.DRACONIC, new HeadMaterialStats(1750, 8f, Tiers.NETHERITE, 12.5f), HandleMaterialStats.percents().durability(0.4f).build(), StatlessMaterialStats.BINDING);
         addMaterialStats(TCompatValues.CHAOTIC, new HeadMaterialStats(2000, 9f, Tiers.NETHERITE, 15f), HandleMaterialStats.percents().durability(0.5f).build(), StatlessMaterialStats.BINDING);
+    }
+
+    private void bloodMagic() {
+        addMaterialStats(TCompatValues.HELLFORGED, new HeadMaterialStats(300, 6.25f, Tiers.IRON, 2.25f), HandleMaterialStats.percents().durability(0.125f).build(), StatlessMaterialStats.BINDING);
     }
 
     @Override

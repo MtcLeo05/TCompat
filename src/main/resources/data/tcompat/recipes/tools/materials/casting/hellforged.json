@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "bloodmagic"
+    },
+    "type": "tconstruct:material_fluid",
+    "fluid": {
+        "amount": 90,
+      "fluid": "tcompat:molten_hellforged"
+    },
+    "output": "tcompat:hellforged",
+    "temperature": 800
+}

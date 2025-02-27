@@ -1,0 +1,8 @@
+{
+    "tcompat:willing":  ["bloodmagic:item/defaultcrystal"],
+    "tcompat:corrosive":  ["bloodmagic:item/corrosivecrystal"],
+    "tcompat:destructive":  ["bloodmagic:item/destructivecrystal"],
+    "tcompat:vengeful":  ["bloodmagic:item/vengefulcrystal"],
+    "tcompat:steadfast":  ["bloodmagic:item/steadfastcrystal"],
+    "tcompat:sentient":  ["bloodmagic:item/soulgempetty"]
+}

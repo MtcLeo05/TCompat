@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "bloodmagic"
+    },
+    "ingredient": {
+        "item": "botania:ingot_hellforged"
+    },
+    "material": "tcompat:hellforged",
+    "needed": 1,
+    "value": 1
+}

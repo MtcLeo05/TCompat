@@ -1,0 +1,16 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "bloodmagic"
+    },
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "item": "bloodmagic:ingot_hellforged"
+    },
+    "result": {
+        "amount": 90,
+        "fluid": "tcompat:molten_hellforged"
+    },
+    "temperature": 800,
+    "time": 60
+}

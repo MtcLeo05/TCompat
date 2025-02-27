@@ -16,6 +16,7 @@ public class ModMaterialRenderInfoProvider extends AbstractMaterialRenderInfoPro
         botania();
         embers();
         draconicEvolution();
+        bloodMagic();
     }
 
     private void botania() {
@@ -35,6 +36,11 @@ public class ModMaterialRenderInfoProvider extends AbstractMaterialRenderInfoPro
         this.buildRenderInfo(TCompatValues.DRACONIC).color(0xc92900).fallbacks("crystal");
         this.buildRenderInfo(TCompatValues.CHAOTIC).color(0x191328).fallbacks("crystal");
     }
+
+    private void bloodMagic() {
+        this.buildRenderInfo(TCompatValues.HELLFORGED).color(TCompatValues.HELLFORGED_COLOR).fallbacks("metal");
+    }
+
 
     @Override
     public String getName() {

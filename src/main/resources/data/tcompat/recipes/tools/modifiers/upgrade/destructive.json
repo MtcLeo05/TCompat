@@ -1,0 +1,21 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "bloodmagic"
+    },
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+        {
+            "item": "bloodmagic:destructivecrystal"
+        }
+    ],
+    "level": 1,
+    "result": "tcompat:destructive",
+    "slots": {
+        "upgrades": 1
+    },
+    "tools": {
+        "tag": "tconstruct:modifiable/melee/weapon"
+    }
+}

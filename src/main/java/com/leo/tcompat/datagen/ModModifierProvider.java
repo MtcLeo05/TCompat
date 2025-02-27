@@ -16,6 +16,7 @@ public class ModModifierProvider extends AbstractModifierProvider implements ICo
     protected void addModifiers() {
         botania();
         draconicEvolution();
+        bloodMagic();
     }
 
     private void botania() {
@@ -28,6 +29,18 @@ public class ModModifierProvider extends AbstractModifierProvider implements ICo
     private void draconicEvolution() {
         ICondition mod = modLoaded("draconicevolution");
         buildModifier(TCompatValues.ENERGIZED, mod);
+    }
+
+    private void bloodMagic() {
+        ICondition mod = modLoaded("bloodmagic");
+
+        buildModifier(TCompatValues.WILLING, mod);
+        buildModifier(TCompatValues.CORROSIVE, mod);
+        buildModifier(TCompatValues.DESTRUCTIVE, mod);
+        buildModifier(TCompatValues.VENGEFUL, mod);
+        buildModifier(TCompatValues.STEADFAST, mod);
+
+        buildModifier(TCompatValues.SENTIENT, mod);
     }
 
     @Override

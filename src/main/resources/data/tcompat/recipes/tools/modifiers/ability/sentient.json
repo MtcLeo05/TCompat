@@ -1,0 +1,26 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "bloodmagic"
+    },
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+        {
+            "item": "bloodmagic:soulgempetty"
+        }
+    ],
+    "level": 1,
+    "result": "tcompat:sentient",
+    "slots": {
+        "abilities": 1
+    },
+    "tools": [
+        {
+            "tag": "tconstruct:modifiable/melee/weapon"
+        },
+        {
+            "tag": "tconstruct:modifiable/harvest"
+        }
+    ]
+}

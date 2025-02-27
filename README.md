@@ -26,6 +26,10 @@ are supported.
     * <span style="color: #843fa1;">Energized</span>, <span style="color: #e03e2d;">
       Draconic</span>, <span style="color: #170131;">Chaotic </span> Modifier
 
+* Blood Magic
+  * <span style="color: #9ad9cd;">Hellforged</span> Material
+  * <span style="color: #8cc9ca;">Willing</span>, <span style="color: #8dc288;">Corrosive</span>, <span style="color: #cd807d;">Destructive</span>, <span style="color: #c2b288;">Vengeful</span>, <span style="color: #8988c2;">Steadfast</span>, <span style="color: #9ad9cd;">Sentient</span> Modifier
+
 ## Modifier / Traits Details
 
 * Botania:
@@ -42,3 +46,8 @@ are supported.
       ticks) and prevent (200 rf / durability) damage. Each level decreases energy needed by 10 (cannot be lower than 100) and increases durability restored by 1 each tick
     * <span style="color: #e03e2d;">Draconic</span>: Tool does 10 + (5 * level)% damage more when in the end
     * <span style="color: #170131;">Chaotic </span>: Tool deals between (0.5 / level) and (3 * level) damage
+
+
+* Blood Magic
+  * <span style="color: #8cc9ca;">Willing</span>, <span style="color: #8dc288;">Corrosive</span>, <span style="color: #cd807d;">Destructive</span>, <span style="color: #c2b288;">Vengeful</span>, <span style="color: #8988c2;">Steadfast</span>: Each of them makes killing mobs drop their respective will type
+  * <span style="color: #9ad9cd;">Sentient</span>: Makes tool have damage and mining speed boosts based on the will the player has. Boost changes based on amount and type of will

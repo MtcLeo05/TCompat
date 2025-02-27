@@ -16,6 +16,7 @@ public class ModMaterialDataProvider extends AbstractMaterialDataProvider {
         botania();
         embers();
         draconicEvolution();
+        bloodMagic();
     }
 
     private void botania() {
@@ -41,6 +42,13 @@ public class ModMaterialDataProvider extends AbstractMaterialDataProvider {
         addMaterial(TCompatValues.DRACONIC, 5, ORDER_GENERAL, true, false, mod);
         addMaterial(TCompatValues.CHAOTIC, 5, ORDER_GENERAL, true, false, mod);
     }
+
+    private void bloodMagic() {
+        ICondition mod = new ModLoadedCondition("bloodmagic");
+
+        addMaterial(TCompatValues.HELLFORGED, 2, ORDER_GENERAL, false, false, mod);
+    }
+
 
     @Override
     public String getName() {

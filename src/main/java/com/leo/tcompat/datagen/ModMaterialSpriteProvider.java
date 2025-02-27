@@ -16,6 +16,7 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
         botania();
         embers();
         draconicEvolution();
+        bloodMagic();
     }
 
     private void botania() {
@@ -159,4 +160,20 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
 
     }
 
+    private void bloodMagic() {
+        this.buildMaterial(TCompatValues.HELLFORGED)
+            .meleeHarvest()
+            .fallbacks("metal")
+            .colorMapper(
+                GreyToColorMapping.builder()
+                    .addARGB(0, 0xFFdef6f6)
+                    .addARGB(63, 0xFFb7f0e6)
+                    .addARGB(120, 0xFF9fe4d6)
+                    .addARGB(140, 0xFF9ad9cd)
+                    .addARGB(178, 0xFF78c9b9)
+                    .addARGB(216, 0xFF375f57)
+                    .addARGB(255, 0xFF2a4a43)
+                    .build()
+            );
+    }
 }

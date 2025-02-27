@@ -1,0 +1,21 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "bloodmagic"
+    },
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+        {
+            "item": "bloodmagic:steadfastcrystal"
+        }
+    ],
+    "level": 1,
+    "result": "tcompat:steadfast",
+    "slots": {
+        "upgrades": 1
+    },
+    "tools": {
+        "tag": "tconstruct:modifiable/melee/weapon"
+    }
+}

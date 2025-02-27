@@ -39,7 +39,7 @@ public class ManaCrumblingModifier extends Modifier implements BreakSpeedModifie
         Player player = event.getEntity();
 
         if(!isEffective) return;
-        if(ToolValueUtils.hasValue(tool, TCompatValues.MANA_CRUMBLING_BOOST, Tag.TAG_FLOAT) && ToolValueUtils.getFloatValue(tool, TCompatValues.MANA_CRUMBLING_BOOST) == 1) {
+        if(ToolValueUtils.hasValue(tool, TCompatValues.GENERIC_BOOLEAN, Tag.TAG_FLOAT) && ToolValueUtils.getFloatValue(tool, TCompatValues.GENERIC_BOOLEAN) == 1) {
             float oldSpeed = event.getNewSpeed();
             float newSpeed = boost(modifier, oldSpeed) * miningSpeedModifier;
             event.setNewSpeed(newSpeed);
@@ -51,7 +51,7 @@ public class ManaCrumblingModifier extends Modifier implements BreakSpeedModifie
         }
 
         ManaItemHandler.instance().requestManaExact(new ItemStack(tool.getItem()), player, MANA_CONSUME, true);
-        ToolValueUtils.uncheckedSetFloatValue(tool, TCompatValues.MANA_CRUMBLING_BOOST, 1);
+        ToolValueUtils.uncheckedSetFloatValue(tool, TCompatValues.GENERIC_BOOLEAN, 1);
         float oldSpeed = event.getNewSpeed();
         float newSpeed = boost(modifier, oldSpeed) * miningSpeedModifier;
         event.setNewSpeed(newSpeed);
@@ -67,13 +67,13 @@ public class ManaCrumblingModifier extends Modifier implements BreakSpeedModifie
 
     @Override
     public void addTooltip(IToolStackView tool, ModifierEntry modifier, @Nullable Player player, List<Component> tooltips, TooltipKey tooltipKey, TooltipFlag tooltipFlag) {
-        if(!ToolValueUtils.hasValue(tool, TCompatValues.MANA_CRUMBLING_BOOST, Tag.TAG_FLOAT) || ToolValueUtils.getFloatValue(tool, TCompatValues.MANA_CRUMBLING_BOOST) == 0) return;
+        if(!ToolValueUtils.hasValue(tool, TCompatValues.GENERIC_BOOLEAN, Tag.TAG_FLOAT) || ToolValueUtils.getFloatValue(tool, TCompatValues.GENERIC_BOOLEAN) == 0) return;
 
         TooltipModifierHook.addPercentBoost(this, Component.translatable(TCompatValues.MANA_CRUMBLING_TOOLTIP), perchBoost(modifier), tooltips);
     }
 
     @Override
     public void afterBlockBreak(IToolStackView tool, ModifierEntry modifier, ToolHarvestContext context) {
-        ToolValueUtils.uncheckedSetFloatValue(tool, TCompatValues.MANA_CRUMBLING_BOOST, 0);
+        ToolValueUtils.uncheckedSetFloatValue(tool, TCompatValues.GENERIC_BOOLEAN, 0);
     }
 }

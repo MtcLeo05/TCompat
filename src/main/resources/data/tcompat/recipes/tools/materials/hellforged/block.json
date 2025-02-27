@@ -1,0 +1,16 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "bloodmagic"
+    },
+    "ingredient": {
+        "item": "bloodmagic:dungeon_metal"
+    },
+    "leftover": {
+        "item": "bloodmagic:ingot_hellforged"
+    },
+    "material": "tcompat:hellforged",
+    "needed": 1,
+    "value": 9
+}
