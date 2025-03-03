@@ -26,6 +26,7 @@ public class BotaniaInit {
     public static final StaticModifier<Modifier> MANA_ALIGNED = BOTANIA_M.register(TCompatValues.MANA_ALIGNED.getPath(), ManaAlignedModifier::new);
     public static final StaticModifier<Modifier> BLOODLUST = BOTANIA_M.register(TCompatValues.BLOODLUST.getPath(), BloodlustModifier::new);
     public static final StaticModifier<Modifier> MANA_CRUMBLING = BOTANIA_M.register(TCompatValues.MANA_CRUMBLING.getPath(), ManaCrumblingModifier::new);
+    public static final StaticModifier<Modifier> MANA_ARROW = BOTANIA_M.register(TCompatValues.MANA_ARROW.getPath(), ManaArrowModifier::new);
 
     public static final FloatToolStat BLOODLUST_BOOST = ToolStats.register(new FloatToolStat(TCompatValues.BLOODLUST_BOOST, 0xfff1100, 0.0F, 0.0F, 32767.0F));
 

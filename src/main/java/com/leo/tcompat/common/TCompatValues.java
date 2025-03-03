@@ -26,8 +26,11 @@ public class TCompatValues {
     public static final ModifierId MANA_ALIGNED = modId("mana_aligned");
     public static final ModifierId BLOODLUST = modId("bloodlust");
     public static final ModifierId MANA_CRUMBLING = modId("mana_crumbling");
+    public static final ModifierId MANA_ARROW = modId("mana_arrow");
 
     public static final ModifierId ENERGIZED = modId("energized");
+    public static final ModifierId ENERGY_ARROW = modId("energy_arrow");
+
     public static final ModifierId DRACONIC_M = modId("draconic");
     public static final ModifierId CHAOTIC_M = modId("chaotic");
 

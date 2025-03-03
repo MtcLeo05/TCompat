@@ -14,10 +14,16 @@ public class ModModifierProvider extends AbstractModifierProvider implements ICo
 
     @Override
     protected void addModifiers() {
+        common();
         botania();
         draconicEvolution();
         bloodMagic();
         manaAndArtifice();
+    }
+
+    private void common() {
+        buildModifier(TCompatValues.ENERGIZED);
+        buildModifier(TCompatValues.ENERGY_ARROW);
     }
 
     private void botania() {
@@ -25,11 +31,13 @@ public class ModModifierProvider extends AbstractModifierProvider implements ICo
         buildModifier(TCompatValues.MANA_ALIGNED, mod);
         buildModifier(TCompatValues.BLOODLUST, mod);
         buildModifier(TCompatValues.MANA_CRUMBLING, mod);
+        buildModifier(TCompatValues.MANA_ARROW, mod);
     }
 
     private void draconicEvolution() {
         ICondition mod = modLoaded("draconicevolution");
-        buildModifier(TCompatValues.ENERGIZED, mod);
+        buildModifier(TCompatValues.DRACONIC_M, mod);
+        buildModifier(TCompatValues.CHAOTIC_M, mod);
     }
 
     private void bloodMagic() {

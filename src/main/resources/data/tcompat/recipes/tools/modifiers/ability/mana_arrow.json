@@ -1,0 +1,35 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+        {
+            "item": "minecraft:spectral_arrow"
+        },
+        {
+            "item": "minecraft:spectral_arrow"
+        },
+        {
+            "item": "minecraft:spectral_arrow"
+        },
+        {
+            "item": "botania:mana_string"
+        },
+        {
+            "item": "tconstruct:sky_slime_crystal"
+        }
+    ],
+    "level": 1,
+    "result": "tcompat:mana_arrow",
+    "slots": {
+        "abilities": 1
+    },
+    "tools": [
+        {
+            "tag": "tconstruct:modifiable/ranged/bows"
+        }
+    ]
+}

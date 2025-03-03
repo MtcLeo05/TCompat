@@ -10,7 +10,6 @@ import slimeknights.tconstruct.library.modifiers.util.StaticModifier;
 public class DraconicEvolutionInit {
     public static final ModifierDeferredRegister DRACONIC_M = ModifierDeferredRegister.create(TCompat.MODID);
 
-    public static final StaticModifier<Modifier> ENERGIZED = DRACONIC_M.register(TCompatValues.ENERGIZED.getPath(), EnergizedModifier::new);
     public static final StaticModifier<Modifier> DRACONIC = DRACONIC_M.register(TCompatValues.DRACONIC_M.getPath(), DraconicModifier::new);
     public static final StaticModifier<Modifier> CHAOTIC = DRACONIC_M.register(TCompatValues.CHAOTIC_M.getPath(), ChaoticModifier::new);
 

@@ -74,9 +74,17 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("modifier." + TCompatValues.MANA_CRUMBLING.toLanguageKey() + ".flavor", "Destruction is Blueberry Flavored!");
         this.add("modifier." + TCompatValues.MANA_CRUMBLING.toLanguageKey() + ".description", "Tool absorbs mana from player to speed up mining");
 
+        this.add("modifier." + TCompatValues.MANA_ARROW.toLanguageKey(), "Mana Arrow");
+        this.add("modifier." + TCompatValues.MANA_ARROW.toLanguageKey() + ".flavor", "Arrows made of condensed mana");
+        this.add("modifier." + TCompatValues.MANA_ARROW.toLanguageKey() + ".description", "Tool uses 60 mana instead of arrows to shoot [Arrows take priority!]");
+
         this.add("modifier." + TCompatValues.ENERGIZED.toLanguageKey(), "Energized");
         this.add("modifier." + TCompatValues.ENERGIZED.toLanguageKey() + ".flavor", "Shocking!");
         this.add("modifier." + TCompatValues.ENERGIZED.toLanguageKey() + ".description", "Tool absorbs energy from player to heal and prevent damage");
+
+        this.add("modifier." + TCompatValues.ENERGY_ARROW.toLanguageKey(), "Energy Arrow");
+        this.add("modifier." + TCompatValues.ENERGY_ARROW.toLanguageKey() + ".flavor", "Arrow of pure energy!");
+        this.add("modifier." + TCompatValues.ENERGY_ARROW.toLanguageKey() + ".description", "Tool uses 60rf instead of arrows to shoot [Arrows take priority!]");
 
         this.add("modifier." + TCompatValues.DRACONIC_M.toLanguageKey(), "Draconic");
         this.add("modifier." + TCompatValues.DRACONIC_M.toLanguageKey() + ".flavor", "Dragon Born!");

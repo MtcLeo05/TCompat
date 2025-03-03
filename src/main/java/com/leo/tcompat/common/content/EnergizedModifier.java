@@ -1,4 +1,4 @@
-package com.leo.tcompat.compat.draconicevolution;
+package com.leo.tcompat.common.content;
 
 import com.leo.tcompat.common.EnergyUtil;
 import net.minecraft.server.level.ServerPlayer;

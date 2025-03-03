@@ -1,0 +1,8 @@
+{
+    "tcompat:sentient": { "type": "tconstruct:normal", "luminosity": 15 },
+    "tcompat:willing": "tconstruct:normal",
+    "tcompat:corrosive": "tconstruct:normal",
+    "tcompat:vengeful": "tconstruct:normal",
+    "tcompat:destructive": "tconstruct:normal",
+    "tcompat:steadfast": "tconstruct:normal"
+}

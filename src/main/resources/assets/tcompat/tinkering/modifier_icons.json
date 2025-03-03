@@ -1,4 +1,6 @@
 {
+    "tcompat:mana_arrow":  ["tcompat:item/modifier/mana_arrow"],
+    "tcompat:energy_arrow":  ["tcompat:item/modifier/energy_arrow"],
     "tcompat:willing":  ["bloodmagic:item/defaultcrystal"],
     "tcompat:corrosive":  ["bloodmagic:item/corrosivecrystal"],
     "tcompat:destructive":  ["bloodmagic:item/destructivecrystal"],

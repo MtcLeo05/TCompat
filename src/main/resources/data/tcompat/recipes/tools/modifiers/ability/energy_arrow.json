@@ -1,0 +1,31 @@
+{
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+        {
+            "item": "minecraft:arrow"
+        },
+        {
+            "item": "minecraft:arrow"
+        },
+        {
+            "item": "minecraft:arrow"
+        },
+        {
+            "item": "minecraft:lightning_rod"
+        },
+        {
+            "item": "tconstruct:sky_slime_crystal"
+        }
+    ],
+    "level": 1,
+    "result": "tcompat:energy_arrow",
+    "slots": {
+        "abilities": 1
+    },
+    "tools": [
+        {
+            "tag": "tconstruct:modifiable/ranged/bows"
+        }
+    ]
+}

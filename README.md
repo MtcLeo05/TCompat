@@ -5,13 +5,17 @@ are supported.
 
 ## General List
 
+* Common \[Always Available\]:
+    * <span style="color: #843fa1;">Energized</span>, <span style="color: #ff7100;">Energy Arrow</span> Modifier
+
+
 * Botania:
     * <span style="color: #ba372a;">Livingwood</span>, <span style="color: #ced4d9;">
       Livingrock</span>, <span style="color: #3598db;">Manasteel</span>, <span style="color: #ba372a;">
       Redquartz</span>, <span style="color: #0f0;">Terrasteel </span> Material
     * <span style="color: #3598db;">Molten Manasteel</span>, <span style="color: #0f0;">Molten Terrasteel</span> Liquid
     * <span style="color: #00f;">Mana Aligned</span>, <span style="color: #f00;">
-      Bloodlust</span>, <span style="color: #3598db;">Mana Crumbling</span> Modifiers
+      Bloodlust</span>, <span style="color: #3598db;">Mana Crumbling</span>, <span style="color: #21e7ff;">Mana Arrow</span> Modifiers
 
 
 * Embers Rekindled
@@ -23,7 +27,7 @@ are supported.
 * Draconic Evolution
     * <span style="color: #843fa1;">Wyvern</span>, <span style="color: #e03e2d;">
       Draconic</span>, <span style="color: #170131;">Chaotic </span> Material
-    * <span style="color: #843fa1;">Energized</span>, <span style="color: #e03e2d;">
+    * <span style="color: #e03e2d;">
       Draconic</span>, <span style="color: #170131;">Chaotic </span> Modifier
 
 * Blood Magic
@@ -36,6 +40,12 @@ are supported.
 
 ## Modifier / Traits Details
 
+* Common \[Always Available\]:
+  * <span style="color: #843fa1;">Energized</span>: Tool absorbs energy to repair (200 rf / durability, once every 10
+      ticks) and prevent (200 rf / durability) damage. Each level decreases energy needed by 10 (cannot be lower than 100) and increases durability restored by 1 each tick
+  * <span style="color: #ff7100;">Energy Arrow</span>: Tool uses 60 rf (or whatever energy type the storage uses) when out of arrow to shoot
+
+
 * Botania:
     * <span style="color: #00f;">Mana Aligned</span>: Tool absorbs mana to repair (200 mana / durability, once every 10
       ticks) and prevent (100 mana / durability) damage. Each level decreases mana needed by 10 (cannot be lower than 10) and increases durability restored by 1 each tick
@@ -43,11 +53,10 @@ are supported.
       boost decreases by 0.1 every second and has a cap of 2.5 * level
     * <span style="color: #3598db;">Mana Crumbling</span>: Tool absorbs 100 mana / block to increase mining speed by
       50 + (25 * level)%
+    * <span style="color: #21e7ff;">Mana Arrow</span>: Tool uses 60 mana when out of arrows to shoot <span style="color: #efff00;">Spectral Arrows</span>
 
 
 * Draconic Evolution
-    * <span style="color: #843fa1;">Energized</span>: Tool absorbs energy to repair (200 rf / durability, once every 10
-      ticks) and prevent (200 rf / durability) damage. Each level decreases energy needed by 10 (cannot be lower than 100) and increases durability restored by 1 each tick
     * <span style="color: #e03e2d;">Draconic</span>: Tool does 10 + (5 * level)% damage more when in the end
     * <span style="color: #170131;">Chaotic </span>: Tool deals between (0.5 / level) and (3 * level) damage
 
