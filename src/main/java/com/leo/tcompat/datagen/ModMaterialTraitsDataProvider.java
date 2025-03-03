@@ -5,6 +5,7 @@ import com.leo.tcompat.compat.botania.BotaniaInit;
 import net.minecraft.data.PackOutput;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialDataProvider;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialTraitDataProvider;
+import slimeknights.tconstruct.library.materials.MaterialRegistry;
 import slimeknights.tconstruct.tools.TinkerModifiers;
 import slimeknights.tconstruct.tools.data.ModifierIds;
 
@@ -27,7 +28,12 @@ public class ModMaterialTraitsDataProvider extends AbstractMaterialTraitDataProv
         this.addDefaultTraits(TCompatValues.LIVINGROCK, TinkerModifiers.stonebound, BotaniaInit.MANA_ALIGNED);
         this.addDefaultTraits(TCompatValues.REDQUARTZ, BotaniaInit.BLOODLUST);
         this.addDefaultTraits(TCompatValues.MANASTEEL, TCompatValues.MANA_ALIGNED, TCompatValues.MANA_CRUMBLING);
-        this.addDefaultTraits(TCompatValues.TERRASTEEL, BotaniaInit.MANA_ALIGNED, TinkerModifiers.lacerating);
+        this.addDefaultTraits(TCompatValues.TERRASTEEL, BotaniaInit.MANA_ALIGNED);
+        this.addDefaultTraits(TCompatValues.ELEMENTIUM, BotaniaInit.MANA_ALIGNED);
+
+        this.addTraits(TCompatValues.TERRASTEEL, MaterialRegistry.MELEE_HARVEST, TinkerModifiers.lacerating, BotaniaInit.MANA_ALIGNED);
+        this.addTraits(TCompatValues.TERRASTEEL, MaterialRegistry.ARMOR, TCompatValues.TERRESTRIAL, TCompatValues.MANA_ALIGNED);
+        this.addTraits(TCompatValues.ELEMENTIUM, MaterialRegistry.ARMOR, TCompatValues.PIXIECLE, TCompatValues.MANA_ALIGNED);
     }
 
     private void embers() {
@@ -45,7 +51,10 @@ public class ModMaterialTraitsDataProvider extends AbstractMaterialTraitDataProv
     }
 
     private void manaAndArtifice() {
-        this.addDefaultTraits(TCompatValues.CHIMERITE, TCompatValues.MANA_STORM, TCompatValues.MANA_BOOST);
+        this.addDefaultTraits(TCompatValues.CHIMERITE, TCompatValues.MANA_STORM);
+
+        this.addTraits(TCompatValues.CHIMERITE, MaterialRegistry.MELEE_HARVEST, TCompatValues.MANA_BOOST, TCompatValues.MANA_STORM);
+        this.addTraits(TCompatValues.CHIMERITE, MaterialRegistry.ARMOR, TCompatValues.MANA_STORM);
     }
 
     @Override

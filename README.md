@@ -12,10 +12,10 @@ are supported.
 * Botania:
     * <span style="color: #ba372a;">Livingwood</span>, <span style="color: #ced4d9;">
       Livingrock</span>, <span style="color: #3598db;">Manasteel</span>, <span style="color: #ba372a;">
-      Redquartz</span>, <span style="color: #0f0;">Terrasteel </span> Material
-    * <span style="color: #3598db;">Molten Manasteel</span>, <span style="color: #0f0;">Molten Terrasteel</span> Liquid
+      Redquartz</span>, <span style="color: #0c7127;">Terrasteel </span> Material
+    * <span style="color: #3598db;">Molten Manasteel</span>, <span style="color: #0c7127;">Molten Terrasteel</span> Liquid
     * <span style="color: #00f;">Mana Aligned</span>, <span style="color: #f00;">
-      Bloodlust</span>, <span style="color: #3598db;">Mana Crumbling</span>, <span style="color: #21e7ff;">Mana Arrow</span> Modifiers
+      Bloodlust</span>, <span style="color: #3598db;">Mana Crumbling</span>, <span style="color: #21e7ff;">Mana Arrow</span>, <span style="color: #0c7127;">Terrestrial</span> Modifiers
 
 
 * Embers Rekindled
@@ -54,6 +54,7 @@ are supported.
     * <span style="color: #3598db;">Mana Crumbling</span>: Tool absorbs 100 mana / block to increase mining speed by
       50 + (25 * level)%
     * <span style="color: #21e7ff;">Mana Arrow</span>: Tool uses 60 mana when out of arrows to shoot <span style="color: #efff00;">Spectral Arrows</span>
+    * <span style="color: #0c7127;">Terrestrial</span>: Tool generates mana each tick based on the modifier level
 
 
 * Draconic Evolution

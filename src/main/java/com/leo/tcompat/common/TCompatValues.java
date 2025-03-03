@@ -12,6 +12,7 @@ public class TCompatValues {
     public static final MaterialId MANASTEEL = matId("manasteel");
     public static final MaterialId REDQUARTZ = matId("redquartz");
     public static final MaterialId TERRASTEEL = matId("terrasteel");
+    public static final MaterialId ELEMENTIUM = matId("elementium");
 
     public static final MaterialId DAWNSTONE = matId("dawnstone");
 
@@ -27,6 +28,8 @@ public class TCompatValues {
     public static final ModifierId BLOODLUST = modId("bloodlust");
     public static final ModifierId MANA_CRUMBLING = modId("mana_crumbling");
     public static final ModifierId MANA_ARROW = modId("mana_arrow");
+    public static final ModifierId TERRESTRIAL = modId("terrestrial");
+    public static final ModifierId PIXIECLE = modId("pixiecle");
 
     public static final ModifierId ENERGIZED = modId("energized");
     public static final ModifierId ENERGY_ARROW = modId("energy_arrow");
@@ -54,6 +57,7 @@ public class TCompatValues {
 
     public static final int MANASTEEL_COLOR = 0x3962d7;
     public static final int TERRASTEEL_COLOR = 0x0c7127;
+    public static final int ELEMENTIUM_COLOR = 0xc342a6;
 
     public static final int HELLFORGED_COLOR = 0x9ad9cd;
 

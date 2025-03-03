@@ -28,6 +28,7 @@ public class ModMaterialDataProvider extends AbstractMaterialDataProvider {
         addMaterial(TCompatValues.REDQUARTZ, 1, ORDER_WEAPON, true, false, mod);
         addMaterial(TCompatValues.MANASTEEL, 2, ORDER_HARVEST, false, false, mod);
         addMaterial(TCompatValues.TERRASTEEL, 3, ORDER_WEAPON, false, false, mod);
+        addMaterial(TCompatValues.ELEMENTIUM, 2, ORDER_COMPAT, false, false, mod);
     }
 
     private void embers() {

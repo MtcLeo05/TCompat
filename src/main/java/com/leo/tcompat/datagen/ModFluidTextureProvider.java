@@ -23,6 +23,7 @@ public class ModFluidTextureProvider extends AbstractFluidTextureProvider {
     public void addTextures() {
         this.named(BotaniaInit.MOLTEN_MANASTEEL, "molten").color(0xFF000000 | TCompatValues.MANASTEEL_COLOR);
         this.named(BotaniaInit.MOLTEN_TERRASTEEL, "molten").color(0xFF000000 | TCompatValues.TERRASTEEL_COLOR);
+        this.named(BotaniaInit.MOLTEN_ELEMENTIUM, "molten").color(0xFF000000 | TCompatValues.ELEMENTIUM_COLOR);
         this.named(BloodMagicInit.MOLTEN_HELLFORGED, "molten").color(0xFF000000 | TCompatValues.HELLFORGED_COLOR);
         this.customNamed(ManaAndArtificeInit.MOLTEN_CHIMERITE, "molten/chimerite_").color(0xFFFFFFFF);
     }

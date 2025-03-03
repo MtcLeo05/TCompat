@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "type": "tconstruct:material_fluid",
+    "fluid": {
+        "amount": 90,
+      "fluid": "tcompat:molten_elementium"
+    },
+    "output": "tcompat:elementium",
+    "temperature": 800
+}

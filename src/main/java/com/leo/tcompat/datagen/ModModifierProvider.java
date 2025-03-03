@@ -32,6 +32,8 @@ public class ModModifierProvider extends AbstractModifierProvider implements ICo
         buildModifier(TCompatValues.BLOODLUST, mod);
         buildModifier(TCompatValues.MANA_CRUMBLING, mod);
         buildModifier(TCompatValues.MANA_ARROW, mod);
+        buildModifier(TCompatValues.TERRESTRIAL, mod);
+        buildModifier(TCompatValues.PIXIECLE, mod);
     }
 
     private void draconicEvolution() {

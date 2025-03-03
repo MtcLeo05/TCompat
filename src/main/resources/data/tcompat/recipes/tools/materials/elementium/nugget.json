@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "botania"
+    },
+    "ingredient": {
+        "item": "botania:elementium_nugget"
+    },
+    "material": "tcompat:elementium",
+    "needed": 9,
+    "value": 1
+}

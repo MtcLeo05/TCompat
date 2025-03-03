@@ -29,7 +29,8 @@ public class ManaStormModifier extends Modifier implements EquipmentChangeModifi
 
         float mod = 40 + (20 * modifier.getLevel());
 
-        magic.getCastingResource().addModifier("modifier.tcompat.tool_boost", mod);
+        String modifierName = "modifier.tcompat.tool_boost" + context.getChangedSlot().getType().name() + "_" + context.getChangedSlot().getIndex();
+        magic.getCastingResource().addModifier(modifierName, mod);
     }
 
     @Override
@@ -41,8 +42,7 @@ public class ManaStormModifier extends Modifier implements EquipmentChangeModifi
 
         IPlayerMagic magic = lazyCap.resolve().get();
 
-        float mod = 40 + (20 * modifier.getLevel());
-
-        magic.getCastingResource().removeModifier("modifier.tcompat.tool_boost");
+        String modifierName = "modifier.tcompat.tool_boost" + context.getChangedSlot().getType().name() + "_" + context.getChangedSlot().getIndex();
+        magic.getCastingResource().removeModifier(modifierName);
     }
 }

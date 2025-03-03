@@ -17,8 +17,12 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("item.tcompat.molten_manasteel_bucket", "Molten Manasteel Bucket");
         this.add("fluid.tconstruct.molten_terrasteel", "Molten Terrasteel");
         this.add("item.tcompat.molten_terrasteel_bucket", "Molten Terrasteel Bucket");
+        this.add("fluid.tconstruct.molten_elementium", "Molten Elementium");
+        this.add("item.tcompat.molten_elementium_bucket", "Molten Elementium Bucket");
+
         this.add("fluid.tconstruct.molten_hellforged", "Molten Hellforged");
         this.add("item.tcompat.molten_hellforged_bucket", "Molten Hellforged Bucket");
+
         this.add("fluid.tconstruct.molten_chimerite", "Molten Chimerite");
         this.add("item.tcompat.molten_chimerite_bucket", "Molten Chimerite Bucket");
 
@@ -43,6 +47,9 @@ public class ModLanguageProvider extends LanguageProvider {
 
         this.add("material." + TCompatValues.TERRASTEEL.toLanguageKey(), "Terrasteel");
         this.add("material." + TCompatValues.TERRASTEEL.toLanguageKey() + ".encyclopedia", "Tool absorbs mana to repair (200 mana / durability, once every 10 ticks) and prevent (100 mana / durability) damage. Each level decreases mana needed by 10 (cannot be lower than 10) and increases durability restored by 1 each tick");
+
+        this.add("material." + TCompatValues.ELEMENTIUM.toLanguageKey(), "Elementium");
+        this.add("material." + TCompatValues.ELEMENTIUM.toLanguageKey() + ".encyclopedia", "Tool sometimes spawns pixies when damaged");
 
         this.add("material." + TCompatValues.DAWNSTONE.toLanguageKey(), "Dawnstone");
         this.add("material." + TCompatValues.DAWNSTONE.toLanguageKey() + ".encyclopedia", "Grants bonus mining speed at lower depth, +6 per 64 blocks below 64");
@@ -77,6 +84,14 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("modifier." + TCompatValues.MANA_ARROW.toLanguageKey(), "Mana Arrow");
         this.add("modifier." + TCompatValues.MANA_ARROW.toLanguageKey() + ".flavor", "Arrows made of condensed mana");
         this.add("modifier." + TCompatValues.MANA_ARROW.toLanguageKey() + ".description", "Tool uses 60 mana instead of arrows to shoot [Arrows take priority!]");
+
+        this.add("modifier." + TCompatValues.TERRESTRIAL.toLanguageKey(), "Terrestrial");
+        this.add("modifier." + TCompatValues.TERRESTRIAL.toLanguageKey() + ".flavor", "Mana Maker");
+        this.add("modifier." + TCompatValues.TERRESTRIAL.toLanguageKey() + ".description", "Tool generates mana every tick");
+
+        this.add("modifier." + TCompatValues.PIXIECLE.toLanguageKey(), "Pixiecle");
+        this.add("modifier." + TCompatValues.PIXIECLE.toLanguageKey() + ".flavor", "Come forth pixies!");
+        this.add("modifier." + TCompatValues.PIXIECLE.toLanguageKey() + ".description", "Armor has a chance to generate pixies when damaged");
 
         this.add("modifier." + TCompatValues.ENERGIZED.toLanguageKey(), "Energized");
         this.add("modifier." + TCompatValues.ENERGIZED.toLanguageKey() + ".flavor", "Shocking!");

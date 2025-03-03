@@ -30,6 +30,9 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
         addMaterialStats(TCompatValues.REDQUARTZ, new HeadMaterialStats(90, 3.5f, Tiers.STONE, 1.75f), HandleMaterialStats.multipliers().durability(0.75F).attackDamage(1.25F).build(), StatlessMaterialStats.BINDING);
         addMaterialStats(TCompatValues.MANASTEEL, new HeadMaterialStats(275, 6.75f, Tiers.IRON, 1.25f), HandleMaterialStats.multipliers().durability(1.0f).miningSpeed(1.1f).build(), StatlessMaterialStats.BINDING);
         addMaterialStats(TCompatValues.TERRASTEEL, new HeadMaterialStats(500, 4f, Tiers.DIAMOND, 4.5f), HandleMaterialStats.multipliers().durability(0.90f).attackDamage(1.25f).attackSpeed(1.15f).build(), StatlessMaterialStats.BINDING);
+
+        addArmorStats(TCompatValues.TERRASTEEL, PlatingMaterialStats.builder().durabilityFactor(17f).armor(3.5f, 5.5f, 6.5f, 3.5f), StatlessMaterialStats.MAILLE);
+        addArmorStats(TCompatValues.ELEMENTIUM, PlatingMaterialStats.builder().durabilityFactor(16f).armor(2.5f, 4.5f, 5.5f, 2.5f), StatlessMaterialStats.MAILLE);
     }
 
     private void embers() {
@@ -49,6 +52,8 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
 
     private void manaAndArtifice() {
         addMaterialStats(TCompatValues.CHIMERITE, new HeadMaterialStats(750, 7.0f, Tiers.DIAMOND, 5.25f), HandleMaterialStats.multipliers().durability(1.75f).attackDamage(1.25f).build(), StatlessMaterialStats.BINDING);
+
+        addArmorStats(TCompatValues.CHIMERITE, PlatingMaterialStats.builder().durabilityFactor(16f).armor(3.0f, 5.0f, 6.0f, 3.0f), StatlessMaterialStats.MAILLE);
     }
     
     @Override

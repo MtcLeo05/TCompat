@@ -95,6 +95,21 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
                     .addARGB(255, 0xFF033017)
                     .build()
             );
+
+        this.buildMaterial(TCompatValues.ELEMENTIUM)
+            .meleeHarvest()
+            .fallbacks("metal")
+            .colorMapper(
+                GreyToColorMapping.builder()
+                    .addARGB(0, 0xFFfcf8f6)
+                    .addARGB(63, 0xFFf2c5c2)
+                    .addARGB(102, 0xFFdd82a3)
+                    .addARGB(140, 0xFFc342a6)
+                    .addARGB(178, 0xFF791890)
+                    .addARGB(216, 0xFF3e0765)
+                    .addARGB(255, 0xFF150135)
+                    .build()
+            );
     }
 
     private void embers() {
