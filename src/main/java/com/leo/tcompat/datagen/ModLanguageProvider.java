@@ -149,6 +149,10 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("modifier." + TCompatValues.MANA_MAGNET.toLanguageKey(), "Mana Magnet");
         this.add("modifier." + TCompatValues.MANA_MAGNET.toLanguageKey() + ".flavor", "A strange attractor..?");
         this.add("modifier." + TCompatValues.MANA_MAGNET.toLanguageKey() + ".description", "Tool / Armor attracts items and exp in exchange of mana");
+
+        this.add("modifier." + TCompatValues.MANA_GAMBLE.toLanguageKey(), "Mana Gamble");
+        this.add("modifier." + TCompatValues.MANA_GAMBLE.toLanguageKey() + ".flavor", "Aww, dang it! Aww, dang it! Aww, dang it!");
+        this.add("modifier." + TCompatValues.MANA_GAMBLE.toLanguageKey() + ".description", "When mining a stone like block there's a chance of dropping raw ores in exchange of mana");
     }
 
 

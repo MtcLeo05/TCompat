@@ -1,7 +1,7 @@
 {
     "condition": {
         "type": "forge:mod_loaded",
-        "modid": "embers"
+        "modid": "bloodmagic"
     },
     "type": "tconstruct:casting_table",
     "cast": {
@@ -10,7 +10,7 @@
     "cooling_time": 60,
     "fluid": {
         "amount": 90,
-        "tag": "forge:molten_dawnstone"
+        "fluid": "tcompat:molten_hellforged"
     },
-    "result": "embers:dawnstone_ingot"
+    "result": "bloodmagic:ingot_hellforged"
 }

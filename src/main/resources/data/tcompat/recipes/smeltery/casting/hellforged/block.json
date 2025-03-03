@@ -1,13 +1,13 @@
 {
     "condition": {
         "type": "forge:mod_loaded",
-        "modid": "embers"
+        "modid": "bloodmagic"
     },
     "type": "tconstruct:casting_basin",
     "cooling_time": 180,
     "fluid": {
         "amount": 810,
-        "tag": "forge:molten_dawnstone"
+        "fluid": "tcompat:molten_hellforged"
     },
-    "result": "embers:dawnstone_block"
+    "result": "bloodmagic:dungeon_metal"
 }

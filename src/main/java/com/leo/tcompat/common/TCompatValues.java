@@ -48,6 +48,7 @@ public class TCompatValues {
     public static final ModifierId MANA_STORM = modId("mana_storm");
     public static final ModifierId MANA_BOOST = modId("mana_boost");
     public static final ModifierId MANA_MAGNET = modId("mana_magnet");
+    public static final ModifierId MANA_GAMBLE = modId("mana_gamble");
 
     public static final ToolStatId BLOODLUST_BOOST = toolStatId("bloodlust_boost");
     public static final ToolStatId GENERIC_BOOLEAN = toolStatId("generic_boolean");

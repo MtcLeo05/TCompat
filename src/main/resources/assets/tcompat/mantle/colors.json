@@ -18,7 +18,8 @@
         "sentient": "#9ad9cd",
         "mana_storm": "#FFE2EE",
         "mana_boost": "#B7FFF7",
-        "mana_magnet": "#9593FF"
+        "mana_magnet": "#9593FF",
+        "mana_gamble": "#FFFC5E"
     },
     "material.tcompat": {
         "livingwood": "#5E2409",

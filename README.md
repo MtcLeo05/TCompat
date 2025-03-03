@@ -21,7 +21,7 @@ are supported.
 * Embers Rekindled
     * <span style="color: #fa0;">Dawnstone </span> Material
     * Removes <span style="color: #fb9f9a;">Rose Gold</span> materials and alloy crafting, and replaces them
-      with <span style="color: #fa0;">Dawnstone</span>
+      with <span style="color: #fa0;">Dawnstone</span>. Molten <span style="color: #fb9f9a;">Rose Gold</span> is still craftable as trying to remove it crashes the game with JEI
 
 
 * Draconic Evolution
@@ -38,7 +38,7 @@ are supported.
 
 * Mana and Artifice
     * <span style="color: #dccbc7;">Chimerite</span>, <span style="color: #647cac;">Vinteum</span> Material
-    * <span style="color: #FFE2EE;">Mana Storm</span>, <span style="color: #B7FFF7;">Mana Boost</span>, <span style="color: #9593FF;">Mana Magnet</span> Modifier
+    * <span style="color: #FFE2EE;">Mana Storm</span>, <span style="color: #B7FFF7;">Mana Boost</span>, <span style="color: #9593FF;">Mana Magnet</span>, <span style="color: #FFFC5E;">Mana Gamble</span> Modifier
 
 ## Modifier / Traits Details
 
@@ -73,3 +73,4 @@ are supported.
     * <span style="color: #FFE2EE;">Mana Storm</span>: Increases the holder / wearer mana by 40 + (20 * level)
     * <span style="color: #B7FFF7;">Mana Boost</span>: Has a 10 + (7.5 * level) % chance of consuming 25 mana (+2.6% * level) to either increase drops (1.5x) or deal magic damage on top of the original. Magic damage is original damage / 4
     * <span style="color: #9593FF;">Mana Magnet</span>: Tool / Armor Consumes 5 - level mana to attract items and exp around the player
+    * <span style="color: #FFFC5E;">Mana Gamble</span>: Tool has a 1% (+0.5% per level) chance of consuming 50 mana (+2.5% each level) and dropping a random ore when mining stone / deepslate

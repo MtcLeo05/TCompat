@@ -1,0 +1,35 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "mna"
+    },
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+        {
+            "item": "minecraft:gold_block"
+        },
+        {
+            "item": "minecraft:gold_block"
+        },
+        {
+            "item": "minecraft:netherite_block"
+        },
+        {
+            "tag": "mna:pedestal_bright_light_items"
+        },
+        {
+            "tag": "mna:pedestal_bright_light_items"
+        }
+    ],
+    "level": 1,
+    "result": "tcompat:mana_gamble",
+    "slots": {
+        "abilities": 1
+    },
+    "tools": [
+        {
+            "tag": "tconstruct:modifiable/harvest"
+        }
+    ]
+}

@@ -24,6 +24,7 @@ public class MNAInit {
     public static final StaticModifier<Modifier> MANA_STORM = MNA_M.register(TCompatValues.MANA_STORM.getPath(), ManaStormModifier::new);
     public static final StaticModifier<Modifier> MANA_BOOST = MNA_M.register(TCompatValues.MANA_BOOST.getPath(), ManaBoostModifier::new);
     public static final StaticModifier<Modifier> MANA_MAGNET = MNA_M.register(TCompatValues.MANA_MAGNET.getPath(), ManaMagnetModifier::new);
+    public static final StaticModifier<Modifier> MANA_GAMBLE = MNA_M.register(TCompatValues.MANA_GAMBLE.getPath(), ManaGambleModifier::new);
 
     public static final FlowingFluidObject<ForgeFlowingFluid> MOLTEN_CHIMERITE = MNA_F.register("molten_chimerite")
         .type(
