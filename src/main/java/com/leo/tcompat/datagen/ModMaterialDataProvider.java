@@ -18,6 +18,7 @@ public class ModMaterialDataProvider extends AbstractMaterialDataProvider {
         draconicEvolution();
         bloodMagic();
         manaAndArtifice();
+        projectE();
     }
 
     private void botania() {
@@ -58,6 +59,12 @@ public class ModMaterialDataProvider extends AbstractMaterialDataProvider {
         addMaterial(TCompatValues.VINTEUM, 2, ORDER_HARVEST, false, false, mod);
     }
 
+    private void projectE() {
+        ICondition mod = new ModLoadedCondition("projecte");
+
+        addMaterial(TCompatValues.DARK_MATTER, 3, ORDER_GENERAL, true, false, mod);
+        addMaterial(TCompatValues.RED_MATTER, 3, ORDER_GENERAL, true, false, mod);
+    }
 
     @Override
     public String getName() {

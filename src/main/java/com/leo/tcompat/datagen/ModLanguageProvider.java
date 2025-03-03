@@ -33,6 +33,9 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add(TCompatValues.WILL_SPEED_BOOST, "Bonus Speed: %s");
         this.add(TCompatValues.WILL_DAMAGE_BOOST, "Bonus Damage: %s");
 
+        this.add(TCompatValues.EMC_GENERATOR_MODE + "burning", " [Burning]");
+        this.add(TCompatValues.EMC_GENERATOR_MODE + "dropping", " [Dropping]");
+
         this.add("tooltip.tcompat.incompatible", "Modifier is incompatible!");
 
         this.add("material." + TCompatValues.LIVINGWOOD.toLanguageKey(), "Livingwood");
@@ -73,6 +76,12 @@ public class ModLanguageProvider extends LanguageProvider {
 
         this.add("material." + TCompatValues.VINTEUM.toLanguageKey(), "Vinteum");
         this.add("material." + TCompatValues.VINTEUM.toLanguageKey() + ".encyclopedia", "Tool uses mana to attract items and exp");
+
+        this.add("material." + TCompatValues.DARK_MATTER.toLanguageKey(), "Dark Matter");
+        this.add("material." + TCompatValues.DARK_MATTER.toLanguageKey() + ".encyclopedia", "Tool can switch between dropping items and converting them in emc");
+
+        this.add("material." + TCompatValues.RED_MATTER.toLanguageKey(), "Red Matter");
+        this.add("material." + TCompatValues.RED_MATTER.toLanguageKey() + ".encyclopedia", "Tool can switch between dropping items and converting them in emc");
 
         this.add("modifier." + TCompatValues.MANA_ALIGNED.toLanguageKey(), "Mana Aligned");
         this.add("modifier." + TCompatValues.MANA_ALIGNED.toLanguageKey() + ".flavor", "Mana Power!");
@@ -153,6 +162,10 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("modifier." + TCompatValues.MANA_GAMBLE.toLanguageKey(), "Mana Gamble");
         this.add("modifier." + TCompatValues.MANA_GAMBLE.toLanguageKey() + ".flavor", "Aww, dang it! Aww, dang it! Aww, dang it!");
         this.add("modifier." + TCompatValues.MANA_GAMBLE.toLanguageKey() + ".description", "When mining a stone like block there's a chance of dropping raw ores in exchange of mana");
+
+        this.add("modifier." + TCompatValues.EMC_GENERATOR.toLanguageKey(), "EMC Generator");
+        this.add("modifier." + TCompatValues.EMC_GENERATOR.toLanguageKey() + ".flavor", "An alchemist's second best friend");
+        this.add("modifier." + TCompatValues.EMC_GENERATOR.toLanguageKey() + ".description", "Allows tool to switch between dropping items and converting them to emc");
     }
 
 

@@ -22,6 +22,7 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
         draconic();
         bloodMagic();
         manaAndArtifice();
+        projectE();
     }
 
     private void botania() {
@@ -57,7 +58,12 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
         addArmorStats(TCompatValues.CHIMERITE, PlatingMaterialStats.builder().durabilityFactor(16f).armor(3.0f, 5.0f, 6.0f, 3.0f), StatlessMaterialStats.MAILLE);
         addArmorStats(TCompatValues.VINTEUM, PlatingMaterialStats.builder().durabilityFactor(15.5f).armor(2.25f, 4.75f, 5.25f, 2.75f), StatlessMaterialStats.MAILLE);
     }
-    
+
+    private void projectE() {
+        addMaterialStats(TCompatValues.DARK_MATTER, new HeadMaterialStats(1500, 8f, Tiers.NETHERITE, 13), HandleMaterialStats.multipliers().durability(1.75f).build(), StatlessMaterialStats.BINDING);
+        addMaterialStats(TCompatValues.RED_MATTER, new HeadMaterialStats(2000, 10f, Tiers.NETHERITE, 15), HandleMaterialStats.multipliers().durability(2.5f).build(), StatlessMaterialStats.BINDING);
+    }
+
     @Override
     public String getName() {
         return "TCompat - Material Stats Provider";

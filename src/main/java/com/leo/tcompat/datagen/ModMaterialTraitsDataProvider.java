@@ -21,6 +21,7 @@ public class ModMaterialTraitsDataProvider extends AbstractMaterialTraitDataProv
         draconic();
         bloodMagic();
         manaAndArtifice();
+        projectE();
     }
 
     private void botania() {
@@ -48,6 +49,11 @@ public class ModMaterialTraitsDataProvider extends AbstractMaterialTraitDataProv
 
     private void bloodMagic() {
         this.addDefaultTraits(TCompatValues.HELLFORGED, TCompatValues.WILLING, TCompatValues.SENTIENT);
+    }
+
+    private void projectE() {
+        this.addDefaultTraits(TCompatValues.DARK_MATTER, TCompatValues.EMC_GENERATOR);
+        this.addDefaultTraits(TCompatValues.RED_MATTER, TCompatValues.EMC_GENERATOR);
     }
 
     private void manaAndArtifice() {

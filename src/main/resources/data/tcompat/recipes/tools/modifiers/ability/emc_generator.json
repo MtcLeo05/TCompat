@@ -1,0 +1,38 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "projecte"
+    },
+    "type": "tconstruct:modifier",
+    "allow_crystal": true,
+    "inputs": [
+        {
+            "item": "projecte:red_matter"
+        },
+        {
+            "item": "projecte:red_matter"
+        },
+        {
+            "item": "projecte:dark_matter"
+        },
+        {
+            "item": "projecte:dark_matter"
+        },
+        {
+            "item": "projecte:philosophers_stone"
+        }
+    ],
+    "level": 1,
+    "result": "tcompat:emc_generator",
+    "slots": {
+        "abilities": 1
+    },
+    "tools": [
+        {
+            "tag": "tconstruct:modifiable/melee/weapon"
+        },
+        {
+            "tag": "tconstruct:modifiable/harvest"
+        }
+    ]
+}

@@ -25,6 +25,9 @@ public class TCompatValues {
     public static final MaterialId CHIMERITE = matId("chimerite");
     public static final MaterialId VINTEUM = matId("vinteum");
 
+    public static final MaterialId DARK_MATTER = matId("dark_matter");
+    public static final MaterialId RED_MATTER = matId("red_matter");
+
     public static final ModifierId MANA_ALIGNED = modId("mana_aligned");
     public static final ModifierId BLOODLUST = modId("bloodlust");
     public static final ModifierId MANA_CRUMBLING = modId("mana_crumbling");
@@ -50,6 +53,8 @@ public class TCompatValues {
     public static final ModifierId MANA_MAGNET = modId("mana_magnet");
     public static final ModifierId MANA_GAMBLE = modId("mana_gamble");
 
+    public static final ModifierId EMC_GENERATOR = modId("emc_generator");
+
     public static final ToolStatId BLOODLUST_BOOST = toolStatId("bloodlust_boost");
     public static final ToolStatId GENERIC_BOOLEAN = toolStatId("generic_boolean");
 
@@ -57,6 +62,8 @@ public class TCompatValues {
     public static final String MANA_CRUMBLING_TOOLTIP = "tooltip.tcompat.mana_crumbling.boost";
     public static final String WILL_SPEED_BOOST = "tooltip.tcompat.will_damage.speed_boost";
     public static final String WILL_DAMAGE_BOOST = "tooltip.tcompat.will_damage.damage_boost";
+
+    public static final String EMC_GENERATOR_MODE = "tooltip.tcompat.emc_generator.mode.";
 
     public static final int MANASTEEL_COLOR = 0x3962d7;
     public static final int TERRASTEEL_COLOR = 0x0c7127;

@@ -40,6 +40,10 @@ are supported.
     * <span style="color: #dccbc7;">Chimerite</span>, <span style="color: #647cac;">Vinteum</span> Material
     * <span style="color: #FFE2EE;">Mana Storm</span>, <span style="color: #B7FFF7;">Mana Boost</span>, <span style="color: #9593FF;">Mana Magnet</span>, <span style="color: #FFFC5E;">Mana Gamble</span> Modifier
 
+
+* ProjectE
+  * <span style="color: #37173b;">Dark Matter</span>, <span style="color: #980707;">Red Matter</span> Material
+  * <span style="color: #B51800;">EMC Generator</span> Modifier
 ## Modifier / Traits Details
 
 * Common \[Always Available\]:
@@ -74,3 +78,7 @@ are supported.
     * <span style="color: #B7FFF7;">Mana Boost</span>: Has a 10 + (7.5 * level) % chance of consuming 25 mana (+2.6% * level) to either increase drops (1.5x) or deal magic damage on top of the original. Magic damage is original damage / 4
     * <span style="color: #9593FF;">Mana Magnet</span>: Tool / Armor Consumes 5 - level mana to attract items and exp around the player
     * <span style="color: #FFFC5E;">Mana Gamble</span>: Tool has a 1% (+0.5% per level) chance of consuming 50 mana (+2.5% each level) and dropping a random ore when mining stone / deepslate
+
+
+* ProjectE
+  * <span style="color: #B51800;">EMC Generator</span>: Tool can be toggled between dropping items and converting them directly in EMC, adding the EMC and learning the item

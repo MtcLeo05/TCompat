@@ -18,6 +18,7 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
         draconicEvolution();
         bloodMagic();
         manaAndArtifice();
+        projectE();
     }
 
     private void botania() {
@@ -225,4 +226,35 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
             );
     }
 
+    private void projectE() {
+        this.buildMaterial(TCompatValues.DARK_MATTER)
+            .meleeHarvest()
+            .fallbacks("crystal")
+            .colorMapper(
+                GreyToColorMapping.builder()
+                    .addARGB(0, 0xFF343434)
+                    .addARGB(63, 0xFF37173b)
+                    .addARGB(120, 0xFF331536)
+                    .addARGB(140, 0xFF2d1331)
+                    .addARGB(178, 0xFF240f27)
+                    .addARGB(216, 0xFF1a091d)
+                    .addARGB(255, 0xFF150919)
+                    .build()
+            );
+
+        this.buildMaterial(TCompatValues.RED_MATTER)
+            .meleeHarvest()
+            .fallbacks("crystal")
+            .colorMapper(
+                GreyToColorMapping.builder()
+                    .addARGB(0, 0xFFb50808)
+                    .addARGB(63, 0xFF980707)
+                    .addARGB(120, 0xFF940707)
+                    .addARGB(140, 0xFF8e0707)
+                    .addARGB(178, 0xFF850606)
+                    .addARGB(216, 0xFF7d0606)
+                    .addARGB(255, 0xFF7a0606)
+                    .build()
+            );
+    }
 }

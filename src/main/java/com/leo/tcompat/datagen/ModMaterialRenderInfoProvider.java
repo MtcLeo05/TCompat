@@ -18,6 +18,7 @@ public class ModMaterialRenderInfoProvider extends AbstractMaterialRenderInfoPro
         draconicEvolution();
         bloodMagic();
         manaAndArtifice();
+        projectE();
     }
 
     private void botania() {
@@ -48,6 +49,10 @@ public class ModMaterialRenderInfoProvider extends AbstractMaterialRenderInfoPro
         this.buildRenderInfo(TCompatValues.VINTEUM).color(TCompatValues.VINTEUM_COLOR).fallbacks("metal");
     }
 
+    private void projectE() {
+        this.buildRenderInfo(TCompatValues.DARK_MATTER).color(0x37173b).fallbacks("crystal");
+        this.buildRenderInfo(TCompatValues.RED_MATTER).color(0x980707).fallbacks("crystal");
+    }
 
     @Override
     public String getName() {

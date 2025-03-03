@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:material",
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "projecte"
+    },
+    "ingredient": {
+        "item": "projecte:red_matter"
+    },
+    "material": "tcompat:red_matter",
+    "needed": 1,
+    "value": 1
+}
