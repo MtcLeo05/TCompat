@@ -52,9 +52,13 @@ public class ModMaterialTraitsDataProvider extends AbstractMaterialTraitDataProv
 
     private void manaAndArtifice() {
         this.addDefaultTraits(TCompatValues.CHIMERITE, TCompatValues.MANA_STORM);
+        this.addDefaultTraits(TCompatValues.VINTEUM, TCompatValues.MANA_MAGNET);
 
         this.addTraits(TCompatValues.CHIMERITE, MaterialRegistry.MELEE_HARVEST, TCompatValues.MANA_BOOST, TCompatValues.MANA_STORM);
+        this.addTraits(TCompatValues.VINTEUM, MaterialRegistry.MELEE_HARVEST, TCompatValues.MANA_MAGNET);
+
         this.addTraits(TCompatValues.CHIMERITE, MaterialRegistry.ARMOR, TCompatValues.MANA_STORM);
+        this.addTraits(TCompatValues.VINTEUM, MaterialRegistry.ARMOR, TCompatValues.MANA_MAGNET);
     }
 
     @Override

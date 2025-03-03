@@ -4,5 +4,6 @@
     "tcompat:corrosive": "tconstruct:normal",
     "tcompat:vengeful": "tconstruct:normal",
     "tcompat:destructive": "tconstruct:normal",
-    "tcompat:steadfast": "tconstruct:normal"
+    "tcompat:steadfast": "tconstruct:normal",
+    "tcompat:mana_magnet": "tconstruct:normal"
 }

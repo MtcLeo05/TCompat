@@ -208,6 +208,21 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
                     .addARGB(255, 0xFFc791ad)
                     .build()
             );
+
+        this.buildMaterial(TCompatValues.VINTEUM)
+            .meleeHarvest()
+            .fallbacks("metal")
+            .colorMapper(
+                GreyToColorMapping.builder()
+                    .addARGB(0, 0xFFf4f8f9)
+                    .addARGB(63, 0xFFb4d3de)
+                    .addARGB(120, 0xFFc0fafc)
+                    .addARGB(140, 0xFF9abcd0)
+                    .addARGB(178, 0xFF647cac)
+                    .addARGB(216, 0xFF566ba0)
+                    .addARGB(255, 0xFF44558c)
+                    .build()
+            );
     }
 
 }

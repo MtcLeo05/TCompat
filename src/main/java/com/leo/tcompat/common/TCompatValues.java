@@ -23,6 +23,7 @@ public class TCompatValues {
     public static final MaterialId HELLFORGED = matId("hellforged");
 
     public static final MaterialId CHIMERITE = matId("chimerite");
+    public static final MaterialId VINTEUM = matId("vinteum");
 
     public static final ModifierId MANA_ALIGNED = modId("mana_aligned");
     public static final ModifierId BLOODLUST = modId("bloodlust");
@@ -46,6 +47,7 @@ public class TCompatValues {
 
     public static final ModifierId MANA_STORM = modId("mana_storm");
     public static final ModifierId MANA_BOOST = modId("mana_boost");
+    public static final ModifierId MANA_MAGNET = modId("mana_magnet");
 
     public static final ToolStatId BLOODLUST_BOOST = toolStatId("bloodlust_boost");
     public static final ToolStatId GENERIC_BOOLEAN = toolStatId("generic_boolean");
@@ -62,6 +64,7 @@ public class TCompatValues {
     public static final int HELLFORGED_COLOR = 0x9ad9cd;
 
     public static final int CHIMERITE_COLOR = 0xdccbc7;
+    public static final int VINTEUM_COLOR = 0x647cac;
 
     private static MaterialId matId(String base) {
         return new MaterialId(TCompat.MODID, base);

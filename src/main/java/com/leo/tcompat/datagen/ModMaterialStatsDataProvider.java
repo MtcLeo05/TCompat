@@ -52,8 +52,10 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
 
     private void manaAndArtifice() {
         addMaterialStats(TCompatValues.CHIMERITE, new HeadMaterialStats(750, 7.0f, Tiers.DIAMOND, 5.25f), HandleMaterialStats.multipliers().durability(1.75f).attackDamage(1.25f).build(), StatlessMaterialStats.BINDING);
+        addMaterialStats(TCompatValues.VINTEUM, new HeadMaterialStats(600, 6.5f, Tiers.DIAMOND, 2.25f), HandleMaterialStats.multipliers().durability(1.5f).miningSpeed(1.35f).build(), StatlessMaterialStats.BINDING);
 
         addArmorStats(TCompatValues.CHIMERITE, PlatingMaterialStats.builder().durabilityFactor(16f).armor(3.0f, 5.0f, 6.0f, 3.0f), StatlessMaterialStats.MAILLE);
+        addArmorStats(TCompatValues.VINTEUM, PlatingMaterialStats.builder().durabilityFactor(15.5f).armor(2.25f, 4.75f, 5.25f, 2.75f), StatlessMaterialStats.MAILLE);
     }
     
     @Override

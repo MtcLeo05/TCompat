@@ -1,0 +1,16 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "mna"
+    },
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "tconstruct:casts/multi_use/ingot"
+    },
+    "cooling_time": 60,
+    "fluid": {
+        "amount": 90,
+        "fluid": "tcompat:molten_vinteum"
+    },
+    "result": "mna:vinteum_ingot"
+}

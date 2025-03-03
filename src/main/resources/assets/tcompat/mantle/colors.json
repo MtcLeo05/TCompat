@@ -17,7 +17,8 @@
         "steadfast": "#8988c2",
         "sentient": "#9ad9cd",
         "mana_storm": "#FFE2EE",
-        "mana_boost": "#B7FFF7"
+        "mana_boost": "#B7FFF7",
+        "mana_magnet": "#9593FF"
     },
     "material.tcompat": {
         "livingwood": "#5E2409",
@@ -31,6 +32,7 @@
         "draconic": "#c92900",
         "chaotic": "#F191328",
         "hellforged": "#9ad9cd",
-        "chimerite": "#dccbc7"
+        "chimerite": "#dccbc7",
+        "vinteum": "#647cac"
     }
 }

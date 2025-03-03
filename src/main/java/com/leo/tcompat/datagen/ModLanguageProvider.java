@@ -25,6 +25,8 @@ public class ModLanguageProvider extends LanguageProvider {
 
         this.add("fluid.tconstruct.molten_chimerite", "Molten Chimerite");
         this.add("item.tcompat.molten_chimerite_bucket", "Molten Chimerite Bucket");
+        this.add("fluid.tconstruct.molten_vinteum", "Molten Vinteum");
+        this.add("item.tcompat.molten_vinteum_bucket", "Molten Vinteum Bucket");
 
         this.add(TCompatValues.BLOODLUST_TOOLTIP, "Bonus Damage: %s");
         this.add(TCompatValues.MANA_CRUMBLING_TOOLTIP, "Bonus Speed");
@@ -68,6 +70,9 @@ public class ModLanguageProvider extends LanguageProvider {
 
         this.add("material." + TCompatValues.CHIMERITE.toLanguageKey(), "Chimerite");
         this.add("material." + TCompatValues.CHIMERITE.toLanguageKey() + ".encyclopedia", "Tool increases holder / wearer mana, and gives slight boost to drops and damage");
+
+        this.add("material." + TCompatValues.VINTEUM.toLanguageKey(), "Vinteum");
+        this.add("material." + TCompatValues.VINTEUM.toLanguageKey() + ".encyclopedia", "Tool uses mana to attract items and exp");
 
         this.add("modifier." + TCompatValues.MANA_ALIGNED.toLanguageKey(), "Mana Aligned");
         this.add("modifier." + TCompatValues.MANA_ALIGNED.toLanguageKey() + ".flavor", "Mana Power!");
@@ -140,6 +145,10 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("modifier." + TCompatValues.MANA_BOOST.toLanguageKey(), "Mana Boost");
         this.add("modifier." + TCompatValues.MANA_BOOST.toLanguageKey() + ".flavor", "May luck be with ye");
         this.add("modifier." + TCompatValues.MANA_BOOST.toLanguageKey() + ".description", "Doing a tools main action sometimes gives bonuses in exchange of mana");
+
+        this.add("modifier." + TCompatValues.MANA_MAGNET.toLanguageKey(), "Mana Magnet");
+        this.add("modifier." + TCompatValues.MANA_MAGNET.toLanguageKey() + ".flavor", "A strange attractor..?");
+        this.add("modifier." + TCompatValues.MANA_MAGNET.toLanguageKey() + ".description", "Tool / Armor attracts items and exp in exchange of mana");
     }
 
 

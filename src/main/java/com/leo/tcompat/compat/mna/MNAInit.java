@@ -17,12 +17,13 @@ import slimeknights.tconstruct.library.modifiers.Modifier;
 import slimeknights.tconstruct.library.modifiers.util.ModifierDeferredRegister;
 import slimeknights.tconstruct.library.modifiers.util.StaticModifier;
 
-public class ManaAndArtificeInit {
+public class MNAInit {
     public static final ModifierDeferredRegister MNA_M = ModifierDeferredRegister.create(TCompat.MODID);
     public static final FluidDeferredRegister MNA_F = new FluidDeferredRegister(TCompat.MODID);
 
     public static final StaticModifier<Modifier> MANA_STORM = MNA_M.register(TCompatValues.MANA_STORM.getPath(), ManaStormModifier::new);
     public static final StaticModifier<Modifier> MANA_BOOST = MNA_M.register(TCompatValues.MANA_BOOST.getPath(), ManaBoostModifier::new);
+    public static final StaticModifier<Modifier> MANA_MAGNET = MNA_M.register(TCompatValues.MANA_MAGNET.getPath(), ManaMagnetModifier::new);
 
     public static final FlowingFluidObject<ForgeFlowingFluid> MOLTEN_CHIMERITE = MNA_F.register("molten_chimerite")
         .type(
@@ -33,6 +34,17 @@ public class ManaAndArtificeInit {
         .block(BurningLiquidBlock.createBurning(MapColor.COLOR_LIGHT_GRAY, 12, 10, 5.0F))
         .bucket()
         .flowing();
+
+    public static final FlowingFluidObject<ForgeFlowingFluid> MOLTEN_VINTEUM = MNA_F.register("molten_vinteum")
+        .type(
+            hot("molten_vinteum")
+                .temperature(1100)
+                .lightLevel(12)
+        )
+        .block(BurningLiquidBlock.createBurning(MapColor.COLOR_CYAN, 12, 10, 5.0F))
+        .bucket()
+        .flowing();
+
 
     public static void init(IEventBus eventBus) {
         MNA_M.register(eventBus);

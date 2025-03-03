@@ -59,6 +59,7 @@ public class ModModifierProvider extends AbstractModifierProvider implements ICo
 
         buildModifier(TCompatValues.MANA_STORM, mod);
         buildModifier(TCompatValues.MANA_BOOST, mod);
+        buildModifier(TCompatValues.MANA_MAGNET, mod);
     }
 
     @Override

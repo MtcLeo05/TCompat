@@ -55,6 +55,7 @@ public class ModMaterialDataProvider extends AbstractMaterialDataProvider {
         ICondition mod = new ModLoadedCondition("mna");
 
         addMaterial(TCompatValues.CHIMERITE, 2, ORDER_GENERAL, false, false, mod);
+        addMaterial(TCompatValues.VINTEUM, 2, ORDER_HARVEST, false, false, mod);
     }
 
 

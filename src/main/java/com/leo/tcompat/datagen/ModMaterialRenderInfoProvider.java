@@ -45,6 +45,7 @@ public class ModMaterialRenderInfoProvider extends AbstractMaterialRenderInfoPro
 
     private void manaAndArtifice() {
         this.buildRenderInfo(TCompatValues.CHIMERITE).color(TCompatValues.CHIMERITE_COLOR).fallbacks("crystal");
+        this.buildRenderInfo(TCompatValues.VINTEUM).color(TCompatValues.VINTEUM_COLOR).fallbacks("metal");
     }
 
 

@@ -1,0 +1,16 @@
+{
+    "condition": {
+        "type": "forge:mod_loaded",
+        "modid": "mna"
+    },
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "item": "mna:vinteum_ingot"
+    },
+    "result": {
+        "amount": 90,
+        "fluid": "tcompat:molten_vinteum"
+    },
+    "temperature": 800,
+    "time": 60
+}

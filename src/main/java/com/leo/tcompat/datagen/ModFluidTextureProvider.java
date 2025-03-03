@@ -4,7 +4,7 @@ import com.leo.tcompat.TCompat;
 import com.leo.tcompat.common.TCompatValues;
 import com.leo.tcompat.compat.bloodmagic.BloodMagicInit;
 import com.leo.tcompat.compat.botania.BotaniaInit;
-import com.leo.tcompat.compat.mna.ManaAndArtificeInit;
+import com.leo.tcompat.compat.mna.MNAInit;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import slimeknights.mantle.fluid.texture.AbstractFluidTextureProvider;
@@ -25,7 +25,9 @@ public class ModFluidTextureProvider extends AbstractFluidTextureProvider {
         this.named(BotaniaInit.MOLTEN_TERRASTEEL, "molten").color(0xFF000000 | TCompatValues.TERRASTEEL_COLOR);
         this.named(BotaniaInit.MOLTEN_ELEMENTIUM, "molten").color(0xFF000000 | TCompatValues.ELEMENTIUM_COLOR);
         this.named(BloodMagicInit.MOLTEN_HELLFORGED, "molten").color(0xFF000000 | TCompatValues.HELLFORGED_COLOR);
-        this.customNamed(ManaAndArtificeInit.MOLTEN_CHIMERITE, "molten/chimerite_").color(0xFFFFFFFF);
+
+        this.customNamed(MNAInit.MOLTEN_CHIMERITE, "molten/chimerite_").color(0xFFFFFFFF);
+        this.named(MNAInit.MOLTEN_VINTEUM, "molten").color(0xFF000000 | TCompatValues.VINTEUM_COLOR);
     }
 
     @Override

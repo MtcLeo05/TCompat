@@ -4,7 +4,7 @@ import com.leo.tcompat.common.CommonInit;
 import com.leo.tcompat.compat.bloodmagic.BloodMagicInit;
 import com.leo.tcompat.compat.botania.BotaniaInit;
 import com.leo.tcompat.compat.draconicevolution.DraconicEvolutionInit;
-import com.leo.tcompat.compat.mna.ManaAndArtificeInit;
+import com.leo.tcompat.compat.mna.MNAInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModList;
 
@@ -26,7 +26,7 @@ public class CompatHelper {
         }
 
         if(ModList.get().isLoaded("mna")) {
-            ManaAndArtificeInit.init(eventBus);
+            MNAInit.init(eventBus);
         }
     }
 
