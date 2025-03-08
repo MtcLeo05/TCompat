@@ -23,20 +23,20 @@
         "emc_generator": "#B51800"
     },
     "material.tcompat": {
-        "livingwood": "#5E2409",
-        "livingrock": "#DFE2D4",
-        "redquartz": "#fc5a5a",
-        "manasteel": "#3962d7",
-        "terrasteel": "#0c7127",
-        "elementium": "#c342a6",
-        "dawnstone": "#FC5100",
+        "livingwood": "#511e0b",
+        "livingrock": "#c9c2b1",
+        "redquartz": "#ffd5d5",
+        "manasteel": "#66b7eb",
+        "terrasteel": "#69e561",
+        "elementium": "#dd82a3",
+        "dawnstone": "#c07a31",
         "wyvern": "#3b1550",
         "draconic": "#c92900",
         "chaotic": "#F191328",
         "hellforged": "#9ad9cd",
         "chimerite": "#dccbc7",
-        "vinteum": "#647cac",
-        "dark_matter": "#37173b",
-        "red_matter": "#980707"
+        "vinteum": "#86bee3",
+        "dark_matter": "#131313",
+        "red_matter": "#430404"
     }
 }

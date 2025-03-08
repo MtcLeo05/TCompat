@@ -64,15 +64,16 @@ public class TCompatValues {
     public static final String WILL_DAMAGE_BOOST = "tooltip.tcompat.will_damage.damage_boost";
 
     public static final String EMC_GENERATOR_MODE = "tooltip.tcompat.emc_generator.mode.";
+    public static final String EMC_GENERATOR_MODE_WARN = "tooltip.tcompat.emc_generator.mode_switch.";
 
-    public static final int MANASTEEL_COLOR = 0x3962d7;
-    public static final int TERRASTEEL_COLOR = 0x0c7127;
-    public static final int ELEMENTIUM_COLOR = 0xc342a6;
+    public static final int MANASTEEL_COLOR = 0x66b7eb;
+    public static final int TERRASTEEL_COLOR = 0x69e561;
+    public static final int ELEMENTIUM_COLOR = 0xdd82a3;
 
     public static final int HELLFORGED_COLOR = 0x9ad9cd;
 
     public static final int CHIMERITE_COLOR = 0xdccbc7;
-    public static final int VINTEUM_COLOR = 0x647cac;
+    public static final int VINTEUM_COLOR = 0x86bee3;
 
     private static MaterialId matId(String base) {
         return new MaterialId(TCompat.MODID, base);

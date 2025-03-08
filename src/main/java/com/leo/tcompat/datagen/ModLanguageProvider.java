@@ -35,6 +35,8 @@ public class ModLanguageProvider extends LanguageProvider {
 
         this.add(TCompatValues.EMC_GENERATOR_MODE + "burning", " [Burning]");
         this.add(TCompatValues.EMC_GENERATOR_MODE + "dropping", " [Dropping]");
+        this.add(TCompatValues.EMC_GENERATOR_MODE_WARN + "burning", "Switched to [Burning] Mode");
+        this.add(TCompatValues.EMC_GENERATOR_MODE_WARN + "dropping", " Switched to [Dropping] Mode");
 
         this.add("tooltip.tcompat.incompatible", "Modifier is incompatible!");
 

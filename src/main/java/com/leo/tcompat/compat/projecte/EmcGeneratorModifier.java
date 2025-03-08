@@ -77,12 +77,18 @@ public class EmcGeneratorModifier extends NoLevelsModifier implements ProcessLoo
 
         if(!ToolValueUtils.hasValue(tool, TCompatValues.GENERIC_BOOLEAN, Tag.TAG_FLOAT)) {
             ToolValueUtils.uncheckedSetFloatValue(tool, TCompatValues.GENERIC_BOOLEAN, 0);
+            player.displayClientMessage(Component.translatable(TCompatValues.EMC_GENERATOR_MODE_WARN + "dropping"), true);
             return InteractionResult.CONSUME;
         }
 
         float oldFloat = ToolValueUtils.getFloatValue(tool, TCompatValues.GENERIC_BOOLEAN);
         float newFloat = oldFloat == 1? 0: 1;
+
+        String mode = TCompatValues.EMC_GENERATOR_MODE_WARN + (ToolValueUtils.getFloatValue(tool, TCompatValues.GENERIC_BOOLEAN) == 1? "dropping": "burning");
+        player.displayClientMessage(Component.translatable(mode), true);
+
         ToolValueUtils.uncheckedSetFloatValue(tool, TCompatValues.GENERIC_BOOLEAN, newFloat);
+
 
         return InteractionResult.CONSUME;
     }
