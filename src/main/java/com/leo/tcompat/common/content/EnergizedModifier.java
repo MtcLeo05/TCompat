@@ -45,6 +45,7 @@ public class EnergizedModifier extends Modifier implements InventoryTickModifier
     public void onInventoryTick(IToolStackView tool, ModifierEntry modifier, Level level, LivingEntity holder, int slot, boolean isSelected, boolean isCorrectSlot, ItemStack stack) {
         if(!(holder instanceof ServerPlayer sPlayer)) return;
         if(holder.tickCount % 10 != 0) return;
+        if(tool.getDamage() <= 0) return;
 
         int toRepair = Math.min(modifier.intEffectiveLevel(), tool.getDamage());
         int energy = toConsume(toRepair, toRepair);
