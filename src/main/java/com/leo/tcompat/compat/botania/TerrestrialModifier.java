@@ -21,7 +21,7 @@ public class TerrestrialModifier extends Modifier implements InventoryTickModifi
 
     @Override
     public void onInventoryTick(IToolStackView tool, ModifierEntry modifier, Level level, LivingEntity livingEntity, int slot, boolean isSelected, boolean isCorrectSlot, ItemStack stack) {
-        if(!isSelected || !isCorrectSlot) return;
+        if(!isCorrectSlot) return;
         if(!(livingEntity instanceof ServerPlayer sPlayer)) return;
         if(ManaItemHandler.instance().getManaItems(sPlayer).isEmpty() && ManaItemHandler.instance().getManaAccesories(sPlayer).isEmpty()) return;
 
