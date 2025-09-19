@@ -31,6 +31,7 @@ public class ModMaterialTraitsDataProvider extends AbstractMaterialTraitDataProv
         this.addDefaultTraits(TCompatValues.MANASTEEL, TCompatValues.MANA_ALIGNED, TCompatValues.MANA_CRUMBLING);
         this.addDefaultTraits(TCompatValues.TERRASTEEL, BotaniaInit.MANA_ALIGNED);
         this.addDefaultTraits(TCompatValues.ELEMENTIUM, BotaniaInit.MANA_ALIGNED);
+        this.addDefaultTraits(TCompatValues.MANA_STRING, BotaniaInit.MANA_ARROW);
 
         this.addTraits(TCompatValues.TERRASTEEL, MaterialRegistry.MELEE_HARVEST, TinkerModifiers.lacerating, BotaniaInit.MANA_ALIGNED);
         this.addTraits(TCompatValues.TERRASTEEL, MaterialRegistry.ARMOR, TCompatValues.TERRESTRIAL, TCompatValues.MANA_ALIGNED);

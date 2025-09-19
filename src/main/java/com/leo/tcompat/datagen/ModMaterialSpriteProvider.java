@@ -24,6 +24,7 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
     private void botania() {
         this.buildMaterial(TCompatValues.LIVINGWOOD)
             .meleeHarvest()
+            .ranged()
             .fallbacks("wood")
             .colorMapper(
                 GreyToColorMapping.builder()
@@ -113,6 +114,22 @@ public class ModMaterialSpriteProvider extends AbstractMaterialSpriteProvider {
                     .addARGB(178, 0xFFdd82a3)
                     .addARGB(216, 0xFFf2c5c2)
                     .addARGB(255, 0xFFfcf8f6)
+                    .build()
+            );
+
+        this.buildMaterial(TCompatValues.MANA_STRING)
+            .ranged()
+            .repairKit()
+            .fallbacks("primitive")
+            .colorMapper(
+                GreyToColorMapping.builder()
+                    .addARGB(0, 0xFF004A66)
+                    .addARGB(63, 0xFF005A6C)
+                    .addARGB(102, 0xFF004A66)
+                    .addARGB(140, 0xFF41B6D5)
+                    .addARGB(178, 0xFF6DE6D8)
+                    .addARGB(216, 0xFF9BFCF1)
+                    .addARGB(255, 0xFFD2FCF7)
                     .build()
             );
     }

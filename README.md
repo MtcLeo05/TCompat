@@ -12,7 +12,7 @@ are supported.
 * Botania:
     * <span style="color: #ba372a;">Livingwood</span>, <span style="color: #ced4d9;">
       Livingrock</span>, <span style="color: #3598db;">Manasteel</span>, <span style="color: #ba372a;">
-      Redquartz</span>, <span style="color: #0c7127;">Terrasteel </span> Material
+      Redquartz</span>, <span style="color: #0c7127;">Terrasteel</span>, <span style="color: #9BFCF1;">Mana Infused String</span> Material
     * <span style="color: #3598db;">Molten Manasteel</span>, <span style="color: #0c7127;">Molten Terrasteel</span> Liquid
     * <span style="color: #00f;">Mana Aligned</span>, <span style="color: #f00;">
       Bloodlust</span>, <span style="color: #3598db;">Mana Crumbling</span>, <span style="color: #21e7ff;">Mana Arrow</span>, <span style="color: #0c7127;">Terrestrial</span> Modifiers

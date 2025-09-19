@@ -5,10 +5,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Tiers;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialDataProvider;
 import slimeknights.tconstruct.library.data.material.AbstractMaterialStatsDataProvider;
-import slimeknights.tconstruct.tools.stats.HandleMaterialStats;
-import slimeknights.tconstruct.tools.stats.HeadMaterialStats;
-import slimeknights.tconstruct.tools.stats.PlatingMaterialStats;
-import slimeknights.tconstruct.tools.stats.StatlessMaterialStats;
+import slimeknights.tconstruct.tools.stats.*;
 
 public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvider {
     public ModMaterialStatsDataProvider(PackOutput packOutput, AbstractMaterialDataProvider materials) {
@@ -26,11 +23,12 @@ public class ModMaterialStatsDataProvider extends AbstractMaterialStatsDataProvi
     }
 
     private void botania() {
-        addMaterialStats(TCompatValues.LIVINGWOOD, new HeadMaterialStats(80, 2.25f, Tiers.WOOD, 0.25f), HandleMaterialStats.percents().build(), StatlessMaterialStats.BINDING);
+        addMaterialStats(TCompatValues.LIVINGWOOD, new HeadMaterialStats(80, 2.25f, Tiers.WOOD, 0.25f), HandleMaterialStats.percents().build(), StatlessMaterialStats.BINDING, new GripMaterialStats(0, 0, 0), new LimbMaterialStats(80, 0, 0, 0));
         addMaterialStats(TCompatValues.LIVINGROCK, new HeadMaterialStats(150, 4.25f, Tiers.STONE, 1.25f), HandleMaterialStats.multipliers().durability(0.85F).miningSpeed(1.1F).build(), StatlessMaterialStats.BINDING);
         addMaterialStats(TCompatValues.REDQUARTZ, new HeadMaterialStats(90, 3.5f, Tiers.STONE, 1.75f), HandleMaterialStats.multipliers().durability(0.75F).attackDamage(1.25F).build(), StatlessMaterialStats.BINDING);
         addMaterialStats(TCompatValues.MANASTEEL, new HeadMaterialStats(275, 6.75f, Tiers.IRON, 1.25f), HandleMaterialStats.multipliers().durability(1.0f).miningSpeed(1.1f).build(), StatlessMaterialStats.BINDING);
         addMaterialStats(TCompatValues.TERRASTEEL, new HeadMaterialStats(500, 4f, Tiers.DIAMOND, 4.5f), HandleMaterialStats.multipliers().durability(0.90f).attackDamage(1.25f).attackSpeed(1.15f).build(), StatlessMaterialStats.BINDING);
+        addMaterialStats(TCompatValues.MANA_STRING, StatlessMaterialStats.BOWSTRING);
 
         addArmorStats(TCompatValues.TERRASTEEL, PlatingMaterialStats.builder().durabilityFactor(17f).armor(3.5f, 5.5f, 6.5f, 3.5f), StatlessMaterialStats.MAILLE);
         addArmorStats(TCompatValues.ELEMENTIUM, PlatingMaterialStats.builder().durabilityFactor(16f).armor(2.5f, 4.5f, 5.5f, 2.5f), StatlessMaterialStats.MAILLE);

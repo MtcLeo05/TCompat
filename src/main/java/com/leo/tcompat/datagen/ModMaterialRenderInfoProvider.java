@@ -28,6 +28,7 @@ public class ModMaterialRenderInfoProvider extends AbstractMaterialRenderInfoPro
         this.buildRenderInfo(TCompatValues.MANASTEEL).color(TCompatValues.MANASTEEL_COLOR).fallbacks("metal");
         this.buildRenderInfo(TCompatValues.TERRASTEEL).color(TCompatValues.TERRASTEEL_COLOR).fallbacks("metal");
         this.buildRenderInfo(TCompatValues.ELEMENTIUM).color(TCompatValues.ELEMENTIUM_COLOR).fallbacks("metal");
+        this.buildRenderInfo(TCompatValues.MANA_STRING).color(0x9BFCF1).fallbacks("primitive");
     }
 
     private void embers() {

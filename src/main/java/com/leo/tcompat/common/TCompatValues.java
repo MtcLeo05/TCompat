@@ -7,27 +7,41 @@ import slimeknights.tconstruct.library.tools.stat.ToolStatId;
 
 public class TCompatValues {
 
+    //region Materials
+
+    // Botania
     public static final MaterialId LIVINGWOOD = matId("livingwood");
     public static final MaterialId LIVINGROCK = matId("livingrock");
     public static final MaterialId MANASTEEL = matId("manasteel");
     public static final MaterialId REDQUARTZ = matId("redquartz");
     public static final MaterialId TERRASTEEL = matId("terrasteel");
     public static final MaterialId ELEMENTIUM = matId("elementium");
+    public static final MaterialId MANA_STRING = matId("mana_string");
 
+    //Embers
     public static final MaterialId DAWNSTONE = matId("dawnstone");
 
+    //Draconic Evolution
     public static final MaterialId WYVERN = matId("wyvern");
     public static final MaterialId DRACONIC = matId("draconic");
     public static final MaterialId CHAOTIC = matId("chaotic");
 
+    //Blood Magic
     public static final MaterialId HELLFORGED = matId("hellforged");
 
+    //Mana and Artifice
     public static final MaterialId CHIMERITE = matId("chimerite");
     public static final MaterialId VINTEUM = matId("vinteum");
 
+    //ProjectE
     public static final MaterialId DARK_MATTER = matId("dark_matter");
     public static final MaterialId RED_MATTER = matId("red_matter");
 
+    //endregion
+
+    //region Modifiers
+
+    //Botania
     public static final ModifierId MANA_ALIGNED = modId("mana_aligned");
     public static final ModifierId BLOODLUST = modId("bloodlust");
     public static final ModifierId MANA_CRUMBLING = modId("mana_crumbling");
@@ -35,12 +49,15 @@ public class TCompatValues {
     public static final ModifierId TERRESTRIAL = modId("terrestrial");
     public static final ModifierId PIXIECLE = modId("pixiecle");
 
+    //Generic
     public static final ModifierId ENERGIZED = modId("energized");
     public static final ModifierId ENERGY_ARROW = modId("energy_arrow");
 
+    //Draconic Evolution
     public static final ModifierId DRACONIC_M = modId("draconic");
     public static final ModifierId CHAOTIC_M = modId("chaotic");
 
+    //Blood Magic
     public static final ModifierId WILLING = modId("willing");
     public static final ModifierId CORROSIVE = modId("corrosive");
     public static final ModifierId VENGEFUL = modId("vengeful");
@@ -48,12 +65,16 @@ public class TCompatValues {
     public static final ModifierId STEADFAST = modId("steadfast");
     public static final ModifierId SENTIENT = modId("sentient");
 
+    //Mana and Artifice
     public static final ModifierId MANA_STORM = modId("mana_storm");
     public static final ModifierId MANA_BOOST = modId("mana_boost");
     public static final ModifierId MANA_MAGNET = modId("mana_magnet");
     public static final ModifierId MANA_GAMBLE = modId("mana_gamble");
 
+    //ProjectE
     public static final ModifierId EMC_GENERATOR = modId("emc_generator");
+
+    //endregion
 
     public static final ToolStatId BLOODLUST_BOOST = toolStatId("bloodlust_boost");
     public static final ToolStatId GENERIC_BOOLEAN = toolStatId("generic_boolean");

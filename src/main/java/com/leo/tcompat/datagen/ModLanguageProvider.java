@@ -58,6 +58,9 @@ public class ModLanguageProvider extends LanguageProvider {
         this.add("material." + TCompatValues.ELEMENTIUM.toLanguageKey(), "Elementium");
         this.add("material." + TCompatValues.ELEMENTIUM.toLanguageKey() + ".encyclopedia", "Tool sometimes spawns pixies when damaged");
 
+        this.add("material." + TCompatValues.MANA_STRING.toLanguageKey(), "Mana Infused String");
+        this.add("material." + TCompatValues.MANA_STRING.toLanguageKey() + ".encyclopedia", "Tool uses 60 mana instead of arrows to shoot [Arrows take priority!]");
+
         this.add("material." + TCompatValues.DAWNSTONE.toLanguageKey(), "Dawnstone");
         this.add("material." + TCompatValues.DAWNSTONE.toLanguageKey() + ".encyclopedia", "Grants bonus mining speed at lower depth, +6 per 64 blocks below 64");
 
